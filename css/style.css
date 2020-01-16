@@ -16,7 +16,7 @@ a{
 header{
 	background-image:url('../img/index/1.jpg');
 	width:100%;
-	height:600px;
+	height:670px;
 	background-size:cover;
 	background-position:center;
 }
@@ -182,4 +182,137 @@ header{
 	font-size:45px;
 	color:#000000;
 	text-align:center;
+}
+
+.programar{
+	width:100%;
+	display:block;
+	background-color:#6f6f6f;
+	margin-top:50px;
+	padding-bottom:50px;
+}
+
+.programar p{
+	font-family:'arima';
+	font-size:35px;
+	color:#ffffff;
+	width:60%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:60px;
+}
+
+.programar h3{
+	font-family:'amaranth';
+	font-size:30px;
+	color:#ffffff;
+	background-color:#480a73;
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	text-align:center;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+
+.blogsection{
+	background-image:url('../img/index/1.jpg');
+	width:100%;
+	min-height:450px;
+	background-size:cover;
+}
+
+.blogtxt{
+	width:60%;;
+	float:right;
+	display:block;
+}
+
+.blogtxt p{
+	font-family:'amaranth';
+	font-size:28px;
+	color:#ffffff;
+	width:60%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:120px;
+}
+
+.blogtxt h3{
+	font-family:'amaranth';
+	font-size:25px;
+	color:#ffffff;
+	background-color:#480a73;
+	width:150px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	text-align:center;
+	padding-top:7px;
+	padding-bottom:7px;
+	margin-bottom:30px;
+}
+
+footer{
+	background-color:#7f11d1;
+	width:100%;
+	height:220px;
+	display:inline-flex;
+}
+
+.footerinfo{
+	width:50%;
+	display:inline-flex;
+}
+
+
+.imgfooter{
+	width:50%;
+}
+
+.imgfooter img{
+	width:90px;;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+
+.infofooter{
+	color:#ffffff;
+	font-family:'arimo';
+	font-size:25px;
+	margin-top:90px;
+	margin-left:-18%;
+}
+
+.footerredes{
+	width:50%;
+	display:block;
+	margin-top:100px;
+	margin-left:25%;
+}
+
+.footerredes a{
+	color:#ffffff;
+	text-align:center;
+	margin-left:10px;;
+}
+
+.tamarindo{
+	color:#ffffff;
+	font-size:12px;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	padding-bottom:5px;
+	background-color:#7f11d1;
+}
+
+.tamarindo a{
+	color:#ffffff;
+	font-weight:bold;
 }
