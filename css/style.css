@@ -13,12 +13,22 @@ a{
 	margin:0;
 }
 
-header{
+.header1{
 	background-image:url('../img/index/1.jpg');
 	width:100%;
 	height:670px;
 	background-size:cover;
 	background-position:center;
+}
+
+.header2{
+	background-image:url('../img/about/portada.jpg');
+	width:100%;
+	height:600px;
+	background-size:cover;
+	background-position:center;
+	z-index:-3;
+	position:relative;
 }
 
 .topnav{
@@ -315,4 +325,150 @@ footer{
 .tamarindo a{
 	color:#ffffff;
 	font-weight:bold;
+}
+
+.portadasobre{
+	width:75%;
+	height:60%;
+	background-color:rgba(149,156,166,0.7);
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:70px;
+	z-index:-2;
+	position:relative;
+}
+
+.titulosobre{
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	height:90px;
+	border-bottom:4px solid #000000;
+	margin-top:-300px;
+	z-index:1;
+}
+
+.titulosobre h1{
+	font-family:'coneria';
+	font-size:70px;
+	color:#000000;
+	text-align:center;
+}
+
+.quotesobre{
+	width:27%;
+	margin-left:52%;
+	background-color:rgba(227,227,228,0.8);
+	margin-top:-100px;
+	z-index:-1;
+	position:relative;
+}
+
+.quotesobre p{
+	font-family:'amaranth';
+	font-size:35px;
+	text-align:center;
+	padding-top:140px;
+	padding-bottom:140px;
+	margin:0 20px;
+}
+
+.experienciaprin{
+	width:100%;
+	display:inline-flex;
+}
+
+.experienciatxt{
+	width:65%;
+	background-color:#dad1e0;
+	position:relative;
+	z-index:-4;
+}
+
+.experienciatxt h3{
+	font-family:'coneria';
+	color:#000000;
+	font-size:55px;
+	text-align:justify;
+	margin-left:20%;
+	margin-top:120px;
+}
+
+.experienciatxt p{
+	font-family:'arimo';
+	color:#000000;
+	font-size:20px;
+	text-align:justify;
+	margin-left:20%;
+	margin-right:25%;
+	margin-top:50px;
+	line-height:40px;
+	padding-bottom:100px;
+}
+
+.experienciaimg{
+	width:35%;
+	position:relative;
+	z-index:-4;
+	height:auto;
+}
+
+.experienciaimg img{
+	width:100%;
+	height:100%;
+}
+
+.biografiaprin{
+	display:block;
+	width:100%;
+	margin-top:300px;
+	padding-bottom:500px;
+}
+
+.biografiasec{
+	display:inline-flex;
+	width:100%;
+}
+
+.biografiaimg{
+	width:50%;
+}
+
+.biografiaimg img{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:75%;
+	margin-top:100px;
+}
+
+.biografiatxt{
+	width:50%;
+}
+
+.biografiatxt p{
+	font-family:'arimo';
+	font-size:20px;
+	text-align:justify;
+	margin-right:15%;
+	margin-left:15%;
+	padding-top:20%;
+	line-height:30px;
+}
+
+.bioback{
+	width:50%;
+	height:1550px;
+	background-color:#dad1e0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-1300px;
+}
+
+.bioback h3{
+	font-family:'coneria';
+	color:#000000;
+	font-size:55px;
+	text-align:center;
+	padding-top:80px;
 }
