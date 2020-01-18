@@ -320,7 +320,6 @@ footer{
 
 /*Comienzo Sobre Mi*/
 
-
 .header2{
 	background-image:url('../img/about/portada.jpg');
 	width:100%;
@@ -328,7 +327,6 @@ footer{
 	background-size:cover;
 	background-position:center;
 	z-index:-3;
-	position:relative;
 }
 
 .portadasobre{
@@ -338,7 +336,7 @@ footer{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:70px;
-	z-index:-2;
+	z-index:3;
 	position:relative;
 }
 
@@ -349,7 +347,8 @@ footer{
 	height:90px;
 	border-bottom:4px solid #000000;
 	margin-top:-300px;
-	z-index:1;
+	z-index:10;
+	position:relative;
 }
 
 .titulosobre h1{
@@ -364,7 +363,7 @@ footer{
 	margin-left:52%;
 	background-color:rgba(227,227,228,0.8);
 	margin-top:-100px;
-	z-index:-1;
+	z-index:9;
 	position:relative;
 }
 
@@ -611,8 +610,61 @@ footer{
   to {opacity: 1}
 }
 
-
 /*Fin Slideshow*/
+
+.interesesprin{
+	width:100%;
+	display:block;
+	margin-top:20px;
+	padding-bottom:100px;
+}
+
+.interesessec{
+	width:100%;
+	display:inline-flex;
+}
+
+.interesesimg{
+	width:33.33%;
+	margin-top:50px;
+}
+
+.interesesimg img{
+	width:70%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.titulointereses{
+	width:100%;
+	margin-top:150px;
+}
+
+.titulointereses h3{
+	font-family:'coneria';
+	color:#000000;
+	font-size:55px;
+	text-align:center;
+}
+
+.cuadro1{
+	width:55%;
+	background-color:#e0c7d7;
+	height:610px;
+	margin-top:-62%;
+	margin-left:2%;
+}
+
+.cuadro2{
+	width:55%;
+	background-color:#e0c7d7;
+	height:560px;
+	margin-top:6%;
+	margin-left:auto;
+	margin-right:2%;
+}
+
 
 
 /*Fin Sobre Mi*/
