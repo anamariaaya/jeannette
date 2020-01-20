@@ -184,6 +184,21 @@ a{
 	text-align:center;
 }
 
+.mainquote{
+	width:100%;
+}
+
+.mainquote h3{
+	margin-top:120px;
+	font-family:'amaranth';
+	font-size:45px;
+	color:#000000;
+	text-align:center;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .programar{
 	width:100%;
 	display:block;
@@ -721,7 +736,7 @@ footer{
 	font-size:35px;
 	text-align:center;
 	padding-top:140px;
-	padding-bottom:140px;
+	padding-bottom:100px;
 	margin:0 20px;
 }
 
@@ -743,6 +758,15 @@ footer{
 	margin-top:120px;
 }
 
+.divcoachingsec h4{
+	font-family:'coneria';
+	color:#000000;
+	font-size:55px;
+	text-align:justify;
+	margin-left:10%;
+	margin-top:120px;
+}
+
 .divcoachingsec p{
 	font-family:'arimo';
 	color:#000000;
@@ -756,10 +780,182 @@ footer{
 }
 
 .divcoachingsec img{
-	width:70%;
+	width:65%;
+	margin-top:20%;
+	margin-left:10%;
 }
 
+.fondotituloizq{
+	background-color:#dad1e0;
+	width:48%;
+	height:70px;
+	margin-top:-580px;
+	margin-left:2%;
+}
 
+.fondoimgder{
+	background-color:#dad1e0;
+	width:30%;
+	height:450px;
+	margin-top:123px;;
+	margin-left:60%;
+	margin-bottom:100px;
+}
+
+.divcoaching2{
+	width:50%;
+}
+
+.divcoaching2 h3{
+	font-family:'coneria';
+	color:#000000;
+	font-size:55px;
+	text-align:justify;
+	margin-top:120px;
+}
+
+.divcoaching2 p{
+	font-family:'arimo';
+	color:#000000;
+	font-size:20px;
+	text-align:justify;
+	margin-right:25%;
+	margin-left:10%;
+	margin-top:50px;
+	line-height:40px;
+	padding-bottom:100px;
+}
+
+.divcoaching2 img{
+	width:65%;
+	margin-top:20%;
+	margin-left:10%;
+}
+
+.fondotituloder{
+	background-color:#dad1e0;
+	width:48%;
+	height:70px;
+	margin-top:-580px;
+	margin-left:47%;
+}
+
+.fondoimgizq{
+	background-color:#dad1e0;
+	width:30%;
+	height:450px;
+	margin-top:123px;
+	margin-left:2%;
+	margin-bottom:100px;
+}
+
+.progcita{
+	width:100%;
+	display:inline-flex;
+}
+
+.progcita2{
+	width:55%;
+	background-color:#7f6f7a;
+	height:700px;
+	z-index:-4;
+	margin-bottom:120px;
+}
+
+.progcita3{
+	background-color:#dad1e0;
+	width:70%;
+	height:400px;
+	margin-top:-670px;;
+	z-index:4;
+	margin-left:15%;
+}
+
+.progcita3 p{
+	font-family:'amaranth';
+	font-size:30px;
+	text-align:center;
+	padding-top:120px;
+	padding-bottom:120px;
+	margin:0 8%;
+	width:40%;
+}
+
+.progcita4{
+	background-color:#7f6f7a;
+	width:20%;
+	height:100px;
+	margin-left:60%;
+	margin-top:-250px;
+}
+
+.progcita4 h2{
+	color:#dad1e0;
+	text-align:center;
+	font-family:'amaranth';
+	font-size:45px;
+	padding:20px 0px;
+}
+
+.blanco{
+	width:100%;
+	height:400px;
+}
 /*Fin TransformArte*/
 
+/*Inicio DesarrollArte*/
+.header4{
+	background-image:url('../img/desarrollarte/portada.jpg');
+	width:100%;
+	height:600px;
+	background-size:cover;
+	background-position:center;
+	z-index:-3;
+}
 
+.programasdesarrollo{
+	width:40%;
+	background-color:#e5d4df;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	margin-top:100px;
+}
+
+.programasdesarrollo h2{
+	width:140%;
+	margin-left:-20%;
+	margin-right:auto;
+	text-align:center;
+	font-size:45px;
+	font-family:'coneria';
+	font-weight:bold;
+	padding-top:50px;
+}
+
+.programasdesarrollo p{
+	width:140%;
+	margin-left:-20%;
+	margin-right:auto;
+	text-align:center;
+	font-size:35px;
+	font-family:'amaranth';
+	color:#7b7478;
+	padding-top:30px;
+	padding-bottom:50px;
+}
+
+.titulosdesarrollo{
+	width:80%;
+	margin-top:7%;
+}
+
+.titulosdesarrollo h2{
+	width:100%;
+	font-family:'coneria';
+	font-size:55px;
+	text-align:left;
+	margin-left:13%;
+	font-weight:bold;
+}
+/*Fin DesarrollArte*/
