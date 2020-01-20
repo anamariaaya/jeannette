@@ -237,6 +237,7 @@ a{
 	width:100%;
 	min-height:450px;
 	background-size:cover;
+	background-position:center;
 }
 
 .blogtxt{
