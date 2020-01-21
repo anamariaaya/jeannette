@@ -188,6 +188,45 @@ Para ello, debía desarrollarme así que tome varias formaciones, que me dieron 
 </div>
 <!--Fin Slideshow-->
 
+<!--Video Slideshow-->
+
+<div class="videosprin">
+<div class="slideshow-container3">
+
+  <!-- Full-width images with number and caption text -->
+	<div class="mySlides2 fade2">
+    	<video muted class="video" src="videos/video eliana rincon final 01.mp4" controls="controls">
+  	</div>
+
+  	<div class="mySlides2 fade2">
+    	<video muted class="video" src="videos/video eliana rincon final 01.mp4" controls="controls">
+  	</div>
+
+  	<div class="mySlides2 fade2">
+    	<video muted class="video" src="videos/video eliana rincon final 01.mp4" controls="controls">
+  	</div>
+  
+
+  
+  <!-- Next and previous buttons -->
+  <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+  <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+	</div>
+<br>
+
+<!-- The dots/circles -->
+	<div style="text-align:center">
+  		<span class="dot2" onclick="currentSlide2(1)"></span>
+  		<span class="dot2" onclick="currentSlide2(2)"></span>
+  		<span class="dot2" onclick="currentSlide2(3)"></span>
+	</div>
+</div>
+
+
+</div>
+<!--Fin Video Slideshow-->
+
+
 <div class="titulointereses">
 	<h3>Intereses & Actividades</h3>
 </div>
@@ -283,6 +322,41 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+</script>
+
+<script>
+
+var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+// Next/previous controls
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+// Thumbnail image controls
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  var x;
+  var slides2 = document.getElementsByClassName("mySlides2");
+  var dots2 = document.getElementsByClassName("dot2");
+  if (n > slides2.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = slides2.length}
+  for (x = 0; x < slides2.length; x++) {
+      slides2[x].style.display = "none";
+  }
+  for (x = 0; x < dots2.length; x++) {
+      dots2[x].className = dots2[x].className.replace(" active2", "");
+  }
+  slides2[slideIndex2-1].style.display = "block";
+  dots2[slideIndex2-1].className += " active2";
+}
+
 
 </script>
 
