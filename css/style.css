@@ -1038,3 +1038,15 @@ footer{
 	font-weight:bold;
 }
 /*Fin DesarrollArte*/
+
+/*Inicio Blog*/
+
+.header5{
+	background-image:url('../img/blog/2.jpg');
+	width:100%;
+	height:670px;
+	background-size:cover;
+	background-position:center;
+}
+
+/*Fin Blog*/
