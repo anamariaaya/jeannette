@@ -77,13 +77,13 @@
 
 <div class="programar">
 	<p>uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	<h3>Programa tu cita</h3>
+	<a href=""><h3>Programa tu cita</h3></a>
 </div>
 
 <div class="blogsection">
 	<div class="blogtxt">
     	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
-        <h3>Ir al Blog</h3>
+        <a href=""><h3>Ir al Blog</h3></a>
 	</div>
 </div>
 
@@ -107,5 +107,16 @@
     	<p>Designed and Developed by <a href="https://www.tamarindolab.com">Tamarindo Lab</a>&nbsp ©2019</p>
     
 </div>
+
+<script>
+function myFunction(){
+	var x = document.getElementById("myMenu");
+	if (x.className === "menu"){
+		x.className += " responsive";
+	} else {
+		x.className = "menu";
+	}
+}
+</script>
 </body>
 </html>
