@@ -4,74 +4,74 @@
 /*Menú*/
 @media (max-width:1050px){
 	.menu{
-	font-size:20px;
-	z-index:1;
-	overflow:hidden;
+		font-size:20px;
+		z-index:1;
+		overflow:hidden;
 	}
 	.menu ul{
-	display:block;
-	margin-left:0%;
+		display:block;
+		margin-left:0%;
 	}
 	.menu ul a{
-	display:none;
-	line-height:0px;
-	margin-top:0%;
+		display:none;
+		line-height:0px;
+		margin-top:0%;
 	}
 	.menu ul a{
-	color:#eeeeee;
-	margin-left:0%;
+		color:#eeeeee;
+		margin-left:0%;
 	}
 	.hamburguesa{
-	display:block !important;
-	float:right;
-	margin-right:5%;
-	margin-top:2.5%;
+		display:block !important;
+		float:right;
+		margin-right:5%;
+		margin-top:2.5%;
 	}
 }
 @media (max-width:1050px){
 	.menu.responsive{
-	position:absolute;
-	height:auto;
-	width:100%;
-	z-index:1;
-	top:0;
+		position:absolute;
+		height:auto;
+		width:100%;
+		z-index:1;
+		top:0;
 	}
 	.menu.responsive ul a{
-	display:block;
-	font-size:18px;
-	width:99%;
-	text-align:center;
-	padding:4px;
-	padding:10px;
+		display:block;
+		font-size:18px;
+		width:99%;
+		text-align:center;
+		padding:4px;
+		padding:10px;
 	}
 	.menu.responsive ul a{
-	margin-top:5.4%;
-	margin-bottom:4%;
+		margin-top:5.4%;
+		margin-bottom:4%;
 	}
 	.menu.responsive hamburguesa{
-	position:absolute;
-	margin-right:0%;
-	margin-top:3%;
-	color:#fff;
+		position:absolute;
+		margin-right:0%;
+		margin-top:3%;
+		color:#fff;
 	}
 	.logomenu {
-    width: 60px;
-    height: 60px;
-    float: left;
-    position: absolute;
-	left: 85px;
-	top:0px;
-}
-.menu.responsive ul a:hover{
-	background-color:rgba(255,255,255,0.2);
+		width: 60px;
+		height: 60px;
+		float: left;
+		position: absolute;
+		left: 85px;
+		top:0px;
+	}
+	.menu.responsive ul a:hover{
+		background-color:rgba(255,255,255,0.2);
 	}
 }
 
 /*Index*/
 @media(max-width:1800px){
 	.menu ul a {
-    font-size: 18px;
-    margin-left: 4.8%;
+		font-size: 18px;
+		margin-left: 4.8%;
 	}
 	
 	.logomenu{
@@ -89,35 +89,35 @@
 		width:auto;
 	}
 	.divtitulo h2 {
-    font-size: 55px;
-    margin-left: -15%;
-    width: 515px;
+		font-size: 55px;
+		margin-left: -15%;
+		width: 515px;
 	}
 	.divtitulo p {
-    font-size: 36px;
-    font-weight: bold;
-    margin-left: -35%;
-    margin-top: 85px;
-	text-shadow: 2px 2px 3px #D0CECE;
+		font-size: 36px;
+		font-weight: bold;
+		margin-left: -35%;
+		margin-top: 85px;
+		text-shadow: 2px 2px 3px #D0CECE;
 	}
 	.divimg img {
-    width: 350px;
-    height: 350px;
+		width: 350px;
+		height: 350px;
 	}
 	.divtxt h2 {
-    font-size: 36px;
+   		font-size: 36px;
 	}
 	.mainquote h3 {
-    font-size: 38px;
+    	font-size: 38px;
 	}
 	.programar p {
-    font-size: 32px;
+    	font-size: 32px;
 	}
 	.blogsection{
 		height:480px;
 	}
 	.blogtxt p {
-    padding-top: 100px;
+   		padding-top: 100px;
 	}
 	.infofooter{
 		font-size:20px;
@@ -133,7 +133,7 @@
 		height:300px;
 	}
 	.mainquote h3 {
-    font-size: 36px;
+  		font-size: 36px;
 	}
 	.footerredes{
 		margin-left:20%;
@@ -159,7 +159,7 @@
 		height:270px;
 	}
 	.mainquote h3{
-    font-size: 34px;
+   		font-size: 34px;
 	}
 	.infofooter{
 		margin-left:10px;
@@ -197,13 +197,13 @@
 		height:250px;
 	}
 	.mainquote h3{
-    font-size: 30px;
+    	font-size: 30px;
 	}
 	.programar p{
-    font-size: 30px;
+  		font-size: 30px;
 	}
 	.programar h3{
-    font-size: 28px;
+   		font-size: 28px;
 	}
 	.footerredes{
 		margin-left:15%;
@@ -263,16 +263,16 @@
 		height:250px;
 	}
 	.mainquote h3{
-    font-size: 28px;
-	margin-top:70px;
+		font-size: 28px;
+		margin-top:70px;
 	}
 	.programar p{
-    font-size: 28px;
-	margin-top:70px;
+		font-size: 28px;
+		margin-top:70px;
 	}
 	.programar h3{
-    font-size: 26px;
-	width:280px;
+		font-size: 26px;
+		width:280px;
 	}
 }
 
@@ -295,14 +295,14 @@
 		font-size:30px !important;
 	}
 	.mainquote h3{
-    font-size: 26px;
+	    font-size: 26px;
 	}
 	.programar p{
-    font-size: 26px;
+ 	   font-size: 26px;
 	}
 	.programar h3{
-    font-size: 24px;
-	width:260px;
+		font-size: 24px;
+		width:260px;
 	}
 }
 
@@ -326,14 +326,14 @@
 		width:100px;
 	}
 	.mainquote h3 {
-    font-size: 25px;
+ 		font-size: 25px;
 	}
 	.programar p{
-    font-size: 25px;
+   		font-size: 25px;
 	}
 	.programar h3{
-    font-size: 23px;
-	width:250px;
+		font-size: 23px;
+		width:250px;
 	}
 }
 
@@ -371,14 +371,14 @@
 		height:200px;
 	}
 	.mainquote h3{
-    font-size: 24px;
+    	font-size: 24px;
 	}
 	.programar p{
-    font-size: 24px;
+    	font-size: 24px;
 	}
 	.programar h3{
-    font-size: 22px;
-	width:230px;
+		font-size: 22px;
+		width:230px;
 	}
 	footer{
 		display:block;
@@ -431,12 +431,12 @@
 		width:80px;
 	}
 	.mainquote h3{
-    font-size: 22px;
-	margin-top:50px;
+		font-size: 22px;
+		margin-top:50px;
 	}
 	.programar p{
-    font-size: 22px;
-	margin-top:50px;
+		font-size: 22px;
+		margin-top:50px;
 	}
 }
 
@@ -484,16 +484,16 @@
 		font-size:26px;
 	}
 	.mainquote h3 {
-    font-size: 20px;
+  		font-size: 20px;
 	}
 	.programar p {
-    font-size: 20px;
+  		font-size: 20px;
 	}
 	.fa-3x{
 		font-size:2.5em !important;
 	}
 	.imgfooter img {
-    width: 55px;
+   		width: 55px;
 	}
 	.infofooter{
 		font-size:16px;
@@ -514,8 +514,8 @@
 		margin-top:30px;
 	}
 	.programar h3{
-    font-size: 20px;
-	width:220px;
+		font-size: 20px;
+		width:220px;
 	}
 }
 
@@ -552,16 +552,16 @@
 		height:175px;
 	}
 	.mainquote h3 {
-    font-size: 20px;
+	    font-size: 20px;
 	}
 	.programar p {
-    font-size: 20px;
+ 	   font-size: 20px;
 	}
 	.imgfooter{
 		width:22%;
 	}
 	.imgfooter img {
-    width: 45px;
+  		width: 45px;
 	}
 	.infofooter{
 		font-size:14px;
@@ -580,9 +580,225 @@
 
 @media(max-width:1800px){
 	.titulosobre h1 {
-    font-size: 60px;
+  	  font-size: 60px;
 	}
 	.quotesobre p {
-    font-size: 22px;
+    	font-size: 22px;
 	}
+	.experienciatxt{
+		width:55%;
+	}
+	.experienciaimg{
+		background-color:#dad1e0;
+		width:45%;
+	}
+	.experienciatxt h3 {
+		font-size: 40px;
+		margin-top: 80px;
+	}
+	
+	.experienciatxt p{
+		font-size:	1.3vw;
+		line-height:30px;
+		margin-top:69px;
+		margin-right:20%;
+	}
+	.exp2 p{
+		font-size:	1.3vw;
+		margin-left:11%;
+		margin-right:15%;
+		margin-top:0px;
+		line-height:30px;
+	}
+	.bioback {
+		position: relative;
+		top: 0px;
+		z-index: -1;
+		margin-top:-1550px;
+		height:1650px;
+	}
+	.bioback h3{
+		font-size:40px;
+		padding-top:60px;
+	}
+	.biografiaprin{
+		padding-bottom:80px;
+		margin-top:180px;
+	}
+	.biografiaimg img {
+		width: 85%;
+		margin-top: 150px;
+	}
+	.biografiatxt p{
+		padding-top:25%;
+		font-size:1.3vw;
+	}
+	.titulotestimonios h3{
+		font-size:40px;
+	}
+	.testimonios p {
+		font-size: 17px;
+		margin-top: 40px;
+		line-height: 20px;
+	}
+	.testimonios h3 {
+		font-size: 20px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.testimoniosprin{
+		padding-bottom:50px;
+	}
+	.videosprin{
+		height:400px;
+	}
+	.titulointereses{
+		margin-top:100px;
+	}
+	.titulointereses h3{
+		font-size:40px;
+	}
+	.titulointereses p{
+		font-size:17px;
+		line-height:27px;
+	}
+	.cuadro1{
+		height:400px;
+		margin-top:-58%;
+	}
+	.cuadro2{
+		height:400px;
+		margin-top:1%;
+	}
+	
+}
+
+@media (max-width:1200px){
+	.titulosobre{
+		margin-top:-200px;
+	}
+	.titulosobre h1 {
+	    font-size: 55px;
+	}
+	.quotesobre p {
+		font-size: 20px;
+		padding-bottom:120px;
+	}
+	.header2{
+		height:550px;
+	}
+	.portadasobre{
+		height:50%;
+	}
+	.experienciaprin{
+		margin-top:550px;
+	}
+	.experienciatxt h3{
+		margin-top:70px;
+		font-size:38px;
+	}
+	.experienciatxt p{
+		line-height:27px;
+		margin-top:45px;
+	}
+	.biografiaimg img{
+		margin-top:80px;
+	}
+	.biografiatxt p{
+		padding-top:15%;
+		line-height:27px;
+	}
+	.bioback{
+		margin-top:-1300px;
+		height:1400px;
+	}
+	.bioback h3{
+		font-size:38px;
+	}
+	.video{
+		width:45%;
+	}
+	.titulointereses h3{
+		font-size:38px;
+	}
+	.cuadro1{
+		width:50%;
+		height:360px;
+		margin-top:-60%;
+	}
+	.cuadro2{
+		width:50%;
+		height:360px;
+		margin-top:-1%;
+	}
+}
+
+@media(max-width:990px){
+	.header2{
+		height:500px;
+	}
+	.portadasobre{
+		margin-top:170px;
+	}
+	.titulosobre{
+		margin-top:-180px;
+	}
+	.titulosobre h1{
+		font-size:52px;
+	}
+	.quotesobre p {
+	    font-size: 18px;
+    	padding-bottom: 50px;
+	}
+	.experienciaprin{
+		margin-top:500px;
+	}
+	.experienciatxt h3 {
+		margin-top: 60px;
+		font-size: 36px;
+		margin-left:18%;
+	}
+	.experienciatxt p {
+		line-height: 23px;
+		margin-top: 35px;
+		font-size: 13.5px;
+		margin-right:10%;
+		margin-left:17%;
+	}
+	.bioback h3{
+		font-size:36px;
+	}
+	.biografiaimg img {
+		margin-top: 50px;
+	}
+	.biografiatxt p {
+		padding-top: 10%;
+		line-height: 23px;
+		font-size: 13.5px;
+		margin-right:10%;
+		margin-left:10%;
+	}
+	.bioback{
+		margin-top:-1020px;
+		height:1100px;
+	}
+	.testimoniosprin{
+		padding-bottom:30px;
+	}
+	.titulotestimonios h3{
+		font-size:36px;
+		padding-top:50px;
+	}
+	.testimonios{
+		margin-top:40px;
+	}
+	.testimonios p{
+		font-size:15px;
+	}
+	.testimonios h3 {
+		font-size: 16px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	
 }
