@@ -24,6 +24,9 @@ a{
 .topnav{
 	display:block;
 	width:100%;
+    z-index: 12;
+    position: absolute;
+    top: 0px;
 }
 
 .menu{
@@ -346,6 +349,7 @@ footer{
 	background-size:cover;
 	background-position:center;
 	z-index:-3;
+	position:absolute;
 }
 
 .portadasobre{
@@ -354,7 +358,7 @@ footer{
 	background-color:rgba(149,156,166,0.7);
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:70px;
+	margin-top:160px;
 	z-index:3;
 	position:relative;
 }
@@ -378,7 +382,7 @@ footer{
 }
 
 .quotesobre{
-	width:27%;
+	width:24%;
 	margin-left:52%;
 	background-color:rgba(227,227,228,0.8);
 	margin-top:-100px;
@@ -388,7 +392,7 @@ footer{
 
 .quotesobre p{
 	font-family:'amaranth';
-	font-size:35px;
+	font-size:25px;
 	text-align:center;
 	padding-top:140px;
 	padding-bottom:140px;
@@ -398,6 +402,7 @@ footer{
 .experienciaprin{
 	width:100%;
 	display:inline-flex;
+	margin-top:600px;
 }
 
 .experienciatxt{

@@ -576,3 +576,13 @@
 	}
 }
 
+/*Sobre Mí*/
+
+@media(max-width:1800px){
+	.titulosobre h1 {
+    font-size: 60px;
+	}
+	.quotesobre p {
+    font-size: 22px;
+	}
+}
