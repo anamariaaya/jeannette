@@ -765,6 +765,13 @@
 		margin-right:10%;
 		margin-left:17%;
 	}
+	.exp2 p {
+		line-height: 23px;
+		font-size: 13.5px;
+		margin-right:17%;
+		margin-left:9%;
+		padding-top:20px;
+	}
 	.bioback h3{
 		font-size:36px;
 	}
@@ -800,5 +807,289 @@
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
+	.video {
+		width: 50%;
+		padding-top:80px;
+	}
+	.titulointereses {
+		margin-top: 70px;
+	}
+	.titulointereses h3{
+		font-size:36px;
+	}
+	.titulointereses p {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.cuadro1 {
+		width: 45%;
+		height: 300px;
+		margin-top: -60%;
+	}
+	.cuadro2 {
+		width: 45%;
+		height: 300px;
+		margin-top: -1%;
+	}	
+}
+
+@media(max-width:950px){
+	.biografiaprin{
+		margin-top:150px;
+	}
+	.bioback{
+		margin-top:-1050px;
+	}
 	
+}
+
+@media(max-width:860px){
+	.header2 {
+		height: 470px;
+	}
+	.portadasobre{
+		height:40%;
+	}
+	.titulosobre{
+		margin-top:-155px;
+		width:280px;
+		height:75px;
+	}
+	.titulosobre h1{
+		font-size:50px;
+	}
+	.quotesobre p{
+		font-size:16px;
+		padding-top:130px;
+		padding-bottom:70px;
+	}
+	.experienciaprin {
+		margin-top: 470px;
+	}
+	.experienciatxt h3{
+		font-size:34px;
+	}
+	.experienciatxt p {
+		line-height: 22px;
+		margin-top: 26px;
+		font-size: 13px;
+	}
+	.exp2 p {
+		line-height: 22px;
+		margin-top: 26px;
+		font-size: 13px;
+		margin-top:0px;
+	}
+	.bioback h3 {
+		font-size: 34px;
+	}
+	.titulotestimonios h3 {
+		font-size: 34px;
+	}
+	.testimonios p {
+		font-size: 14px;
+		margin-top:36px;
+	}
+	.testimonios h3 {
+		font-size: 14px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.prev, .next {
+		font-size: 40px;
+	}
+	.dot{
+		width:13px;
+		height:13px;
+	}
+	.interesesprin{
+		padding-bottom:70px;
+	}
+	.titulointereses h3{
+		font-size:34px;
+	}
+	.titulointereses p{
+		font-size:14px;
+	}
+	.cuadro1{
+		margin-top:-64%;
+	}
+	
+}
+@media(max-width:847px){
+	.bioback{
+		margin-top:-1100px;
+	}
+}
+
+@media(max-width:827px){
+	.bioback{
+		margin-top:-1150px;
+	}
+}
+
+@media(max-width:794px){
+	.bioback{
+		margin-top:-1170px;
+	}
+}
+@media(max-width:780px){
+	.header2{
+		height:450px;
+	}
+	.portadasobre{
+		height:38%;
+	}
+	.titulosobre{
+		margin-top:-130px;
+	}
+	.titulosobre h1{
+		font-size:46px;
+	}
+	.quotesobre{
+		width:25%;
+	}
+	.quotesobre p{
+		font-size:15px;
+		padding-bottom:67px;
+	}
+	.experienciaprin{
+		margin-top:450px;
+	}
+	.experienciatxt h3{
+		font-size:30px;
+		margin-top:45px;
+	}
+	.experienciatxt p {
+		line-height: 20px;
+		margin-top: 18px;
+		font-size: 12.5px;
+	}
+	.exp2 p {
+		line-height: 20px;
+		font-size: 12.5px;
+	}
+	.biografiaimg img{
+		margin-top:30px;
+	}
+	.biografiatxt p{
+		padding-top:8%;
+		line-height:21px;
+		font-size:13px;
+	}
+	.bioback{
+		margin-top:-1060px;
+	}
+	.bioback h3{
+		font-size:30px;
+		padding-top:40px;
+	}
+	.titulotestimonios h3{
+		font-size:30px;
+	}
+	.testimonios p{
+		font-size:13px;
+		line-height:18px;
+	}
+	.dot2{
+		width:13px;
+		height:13px;
+	}
+	.titulointereses{
+		margin-top:40px;
+	}
+	.titulointereses h3 {
+		font-size: 30px;
+	}
+	.titulointereses p {
+		font-size: 13px;
+		line-height:21px;
+	}
+	.cuadro1 {
+		height: 250px;
+	}
+	.cuadro2 {
+		height: 250px;
+		margin-top: 3%;
+	}
+}
+@media(max-width:720px){
+	.bioback{
+		margin-top:-1120px;
+	}
+}
+@media(max-width:700px){
+	.header2{
+		height:400px;
+	}
+	.portadasobre{
+		width:65%;
+		height:36%;
+	}
+	.titulosobre{
+		margin-top:-115px;
+		width:250px;
+		height:65px;
+	}
+	.titulosobre h1{
+		font-size:42px;
+	}
+	.quotesobre{
+		margin-top:-70px;
+	}
+	.quotesobre p{
+		font-size:13.5px;
+		padding-bottom:50px;
+		padding-top:90px;
+	}
+	.experienciaprin{
+		margin-top:355px;
+		display:inline-block;
+	}
+	.experienciatxt{
+		width:100%;
+	}
+	.experienciatxt h3{
+		padding-top:45px;
+		font-size:28px;
+	}
+	.experienciaimg{
+		width:100%;
+	}
+	.experienciaimg img {
+		width: 45%;
+		margin: 15px 26.5%;
+	    border: 3px solid #AD9DB7;
+		border-radius: 10px;
+		padding: 2px;
+	}
+	
+	.exp2 p{
+		margin-left:18%;
+		margin-right:10%;
+	}
+	.biografiaprin{
+		margin-top:150px;
+	}
+	.biografiasec{
+		display:block;
+	}
+	.biografiaimg {
+		width: 65%;
+		margin-left: 17.5%;
+	}
+	.biografiatxt {
+		width: 100%;
+	}
+	.bioback{
+		margin-top:-1300px;
+		height:1350px;
+	}
+	.bioback h3{
+		font-size:28px;
+	}
+	.titulotestimonios h3{
+		font-size:28px;
+		padding-top:40px;
+	}
 }
