@@ -1102,4 +1102,44 @@
 		font-size: 12px;
 		line-height: 18px;
 	}
-}
+	.interesessec{
+		width:100%;
+		display:contents;
+		height:auto;
+	}
+	.interesesimg{
+		width:100%;
+		margin-top:20px;
+	}
+	.interesesimg img{
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height:auto;
+	}
+	.interesesprin {
+		padding-bottom: 70px;
+		height:auto;
+		margin-top:60px;
+		height:2200px;
+	}
+	.interesessec:after{
+		clear:both;
+		display:table;
+		content:"";
+	}
+	.cuadro1 {
+		margin-top: 0;
+		position: relative;
+		z-index: -1;
+		top: -2220px;
+		height:1000px;
+	}
+	.cuadro2 {
+		margin-top: 0;
+		position: relative;
+		z-index: -1;
+		top: -1950px;
+		height:1000px;
+	}
