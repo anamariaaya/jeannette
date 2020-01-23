@@ -1092,4 +1092,14 @@
 		font-size:28px;
 		padding-top:40px;
 	}
+	.video {
+    	width: 60%;
+	}
+	.titulointereses h3 {
+		font-size: 28px;
+	}
+	.titulointereses p {
+		font-size: 12px;
+		line-height: 18px;
+	}
 }
