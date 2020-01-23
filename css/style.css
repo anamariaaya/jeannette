@@ -1184,6 +1184,7 @@ footer{
 	background-position:center;
 	z-index:-3;
 	position:absolute;
+	top:0;
 }
 
 .contactoprin{
@@ -1235,6 +1236,7 @@ footer{
 	background-color:#dad1e0;
 	font-family:'amaranth';
 	margin-top:3px;
+	font-size:14px;
 }	
 
 input[type=radio]{
@@ -1263,7 +1265,7 @@ input[type=radio]{
 .mensaje{
 	height:100px;
 	width:79%;
-	margin-left:20px;
+	margin-right:20px;
 	margin-left:25px;
 	border: 1px solid #ccc;
     border-radius: 4px;
