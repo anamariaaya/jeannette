@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*Menú*/
-@media (max-width:1050px){
+@media (max-width:1052px){
 	.menu{
 		font-size:20px;
 		z-index:1;
@@ -28,7 +28,7 @@
 		margin-top:2.5%;
 	}
 }
-@media (max-width:1050px){
+@media (max-width:1052px){
 	.menu.responsive{
 		position:absolute;
 		height:auto;
@@ -75,10 +75,10 @@
 	}
 	
 	.logomenu{
-		margin-right:150px;
+		margin-right:110px;
 	}
 	.menu ul{
-		width: 50%;
+		width: 60%;
 		margin-left:20%;
 	}
 	
