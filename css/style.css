@@ -885,6 +885,7 @@ footer{
 	margin-top:120px;
 }
 
+
 .divcoachingsec h4{
 	font-family:'coneria';
 	color:#000000;
@@ -898,12 +899,18 @@ footer{
 	font-family:'arimo';
 	color:#000000;
 	font-size:20px;
-	text-align:justify;
+	text-align:left;
 	margin-left:20%;
 	margin-right:25%;
 	margin-top:50px;
-	line-height:40px;
+	line-height:30px;
 	padding-bottom:100px;
+}
+
+.divcoachingsec p span{
+	font-family:'coneria';
+	color:#000000;
+	font-size:30px;
 }
 
 .divcoachingsec img{
@@ -916,11 +923,28 @@ footer{
 	background-color:#dad1e0;
 	width:48%;
 	height:70px;
-	margin-top:-580px;
+	margin-top:-680px;
 	margin-left:2%;
 }
 
 .fondoimgder{
+	background-color:#dad1e0;
+	width:30%;
+	height:450px;
+	margin-top:123px;;
+	margin-left:60%;
+	margin-bottom:100px;
+}
+
+.fondotituloizq2{
+	background-color:#dad1e0;
+	width:48%;
+	height:70px;
+	margin-top:-620px;
+	margin-left:2%;
+}
+
+.fondoimgder2{
 	background-color:#dad1e0;
 	width:30%;
 	height:450px;
@@ -945,11 +969,11 @@ footer{
 	font-family:'arimo';
 	color:#000000;
 	font-size:20px;
-	text-align:justify;
+	text-align:left;
 	margin-right:25%;
 	margin-left:10%;
 	margin-top:50px;
-	line-height:40px;
+	line-height:30px;
 	padding-bottom:100px;
 }
 
@@ -963,11 +987,28 @@ footer{
 	background-color:#dad1e0;
 	width:48%;
 	height:70px;
-	margin-top:-580px;
+	margin-top:-595px;
 	margin-left:47%;
 }
 
 .fondoimgizq{
+	background-color:#dad1e0;
+	width:30%;
+	height:450px;
+	margin-top:123px;
+	margin-left:2%;
+	margin-bottom:100px;
+}
+
+.fondotituloder2{
+	background-color:#dad1e0;
+	width:48%;
+	height:70px;
+	margin-top:-595px;
+	margin-left:47%;
+}
+
+.fondoimgizq2{
 	background-color:#dad1e0;
 	width:30%;
 	height:450px;
