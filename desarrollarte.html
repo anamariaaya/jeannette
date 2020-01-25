@@ -1,8 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DesarrollArte</title>
+
 <link rel = "stylesheet" type = "text/css" href = "css/style.css"/>
 <link rel = "stylesheet" type = "text/css" href = "css/responsive.css"/>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -10,13 +12,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<script type="text/javascript" src="js/myScript.js"></script>
-
 </head>
 
 <body>
 
-<header class="header4">
 <div class="topnav">
 	<div class="menu" id="myMenu"> 
     <a href="javascript:void(0);" class="icon" onClick="myFunction()"><i class="fa fa-bars fa-2x hamburguesa"></i></a>
@@ -35,13 +34,14 @@
     </div>
 </div>
 
-<div class="portada">	
+<header class="header4">
+<div class="portadasobre">	
 </div>
-<div class="titulo">
+<div class="titulosobre">
 	<h1>DesarrollArte</h1>
 </div>
 
-<div class="quote">
+<div class="quotesobre">
 	<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
 </div>
 </header>
@@ -143,5 +143,16 @@
     
 </div>
 
+<!--Script Menú responsive-->
+<script>
+function myFunction(){
+	var x = document.getElementById("myMenu");
+	if (x.className === "menu"){
+		x.className += " responsive";
+	} else {
+		x.className = "menu";
+	}
+}
+</script>
 </body>
 </html>

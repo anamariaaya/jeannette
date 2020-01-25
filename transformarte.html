@@ -18,7 +18,7 @@
 
 <body>
 
-<header class="header3">
+
 <div class="topnav">
 	<div class="menu" id="myMenu"> 
     <a href="javascript:void(0);" class="icon" onClick="myFunction()"><i class="fa fa-bars fa-2x hamburguesa"></i></a>
@@ -37,6 +37,8 @@
     </div>
 </div>
 
+<header class="header3">
+
 <div class="portadasobre">	
 </div>
 <div class="titulosobre">
@@ -48,6 +50,7 @@
 </div>
 </header>
 
+<div class="transfgral">
 <div class="divcoaching">
 	<div class="divcoachingsec abajo">
     	<h3>¿Dónde Inicio?</h3>
@@ -115,7 +118,7 @@
 </div>
 
 <div class="blanco"></div>
-
+</div>
 <footer>
 	<div class="footerinfo">
     	<div class="imgfooter">
@@ -137,6 +140,15 @@
     
 </div>
 
-<body>
+<script>
+function myFunction(){
+	var x = document.getElementById("myMenu");
+	if (x.className === "menu"){
+		x.className += " responsive";
+	} else {
+		x.className = "menu";
+	}
+}
+</script>
 </body>
 </html>

@@ -818,58 +818,18 @@ footer{
 	background-size:cover;
 	background-position:center;
 	z-index:-3;
+	position:absolute;
+	top:0;
 }
 
-.portada{
-	width:75%;
-	height:60%;
-	background-color:rgba(149,156,166,0.7);
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:70px;
-	z-index:3;
-	position:relative;
-}
-
-.titulo{
-	margin-left:auto;
-	margin-right:auto;
-	width:500px;
-	height:90px;
-	border-bottom:4px solid #000000;
-	margin-top:-300px;
-	z-index:10;
-	position:relative;
-}
-
-.titulo h1{
-	font-family:'coneria';
-	font-size:70px;
-	color:#000000;
-	text-align:center;
-}
-
-.quote{
-	width:27%;
-	margin-left:52%;
-	background-color:rgba(227,227,228,0.8);
-	margin-top:-100px;
-	z-index:9;
-	position:relative;
-}
-
-.quote p{
-	font-family:'amaranth';
-	font-size:35px;
-	text-align:center;
-	padding-top:140px;
-	padding-bottom:100px;
-	margin:0 20px;
+.transfgral{
+	margin-top:600px;
 }
 
 .divcoaching{
 	width:100%;
 	display:inline-flex;
+	margin: 70px 0px;
 }
 
 .divcoachingsec{
@@ -885,7 +845,6 @@ footer{
 	margin-top:120px;
 }
 
-
 .divcoachingsec h4{
 	font-family:'coneria';
 	color:#000000;
@@ -899,18 +858,12 @@ footer{
 	font-family:'arimo';
 	color:#000000;
 	font-size:20px;
-	text-align:left;
+	text-align:justify;
 	margin-left:20%;
 	margin-right:25%;
 	margin-top:50px;
-	line-height:30px;
+	line-height:40px;
 	padding-bottom:100px;
-}
-
-.divcoachingsec p span{
-	font-family:'coneria';
-	color:#000000;
-	font-size:30px;
 }
 
 .divcoachingsec img{
@@ -923,7 +876,7 @@ footer{
 	background-color:#dad1e0;
 	width:48%;
 	height:70px;
-	margin-top:-680px;
+	margin-top:-900px;
 	margin-left:2%;
 }
 
@@ -940,7 +893,7 @@ footer{
 	background-color:#dad1e0;
 	width:48%;
 	height:70px;
-	margin-top:-620px;
+	margin-top:-820px;
 	margin-left:2%;
 }
 
@@ -950,6 +903,23 @@ footer{
 	height:450px;
 	margin-top:123px;;
 	margin-left:60%;
+	margin-bottom:100px;
+}
+
+.fondotituloder2{
+	background-color:#dad1e0;
+	width:48%;
+	height:70px;
+	margin-top:-780px;
+	margin-left:47%;
+}
+
+.fondoimgizq2{
+	background-color:#dad1e0;
+	width:30%;
+	height:450px;
+	margin-top:123px;
+	margin-left:2%;
 	margin-bottom:100px;
 }
 
@@ -969,11 +939,11 @@ footer{
 	font-family:'arimo';
 	color:#000000;
 	font-size:20px;
-	text-align:left;
+	text-align:justify;
 	margin-right:25%;
 	margin-left:10%;
 	margin-top:50px;
-	line-height:30px;
+	line-height:40px;
 	padding-bottom:100px;
 }
 
@@ -987,28 +957,11 @@ footer{
 	background-color:#dad1e0;
 	width:48%;
 	height:70px;
-	margin-top:-595px;
+	margin-top:-780px;
 	margin-left:47%;
 }
 
 .fondoimgizq{
-	background-color:#dad1e0;
-	width:30%;
-	height:450px;
-	margin-top:123px;
-	margin-left:2%;
-	margin-bottom:100px;
-}
-
-.fondotituloder2{
-	background-color:#dad1e0;
-	width:48%;
-	height:70px;
-	margin-top:-595px;
-	margin-left:47%;
-}
-
-.fondoimgizq2{
 	background-color:#dad1e0;
 	width:30%;
 	height:450px;
@@ -1079,6 +1032,8 @@ footer{
 	background-size:cover;
 	background-position:center;
 	z-index:-3;
+	position:absolute;
+	top:0;
 }
 
 .programasdesarrollo{
@@ -1087,7 +1042,7 @@ footer{
 	margin-left:auto;
 	margin-right:auto;
 	height:auto;
-	margin-top:100px;
+	margin-top:700px;
 }
 
 .programasdesarrollo h2{
@@ -1128,7 +1083,6 @@ footer{
 	font-size:40px;
 	text-align:left;
 	margin-left:17%;
-	font-weight:bold;
 }
 
 .fondotitulodes{
@@ -1167,7 +1121,6 @@ footer{
 	margin-right:15%;
 	padding-top:100px;
 	text-align:center;
-	font-weight:bold;
 }
 
 .imgdesarrollo2{
@@ -1199,7 +1152,6 @@ footer{
 	margin-right:15%;
 	padding-top:100px;
 	text-align:center;
-	font-weight:bold;
 }
 /*Fin DesarrollArte*/
 
@@ -1211,6 +1163,9 @@ footer{
 	height:670px;
 	background-size:cover;
 	background-position:center;
+	z-index:1;
+	position:absolute;
+	top:0;
 }
 
 /*Fin Blog*/
@@ -1329,3 +1284,8 @@ input[type=radio]{
 }
 
 /*Fin Contacto*/
+/*Blog*/
+.blog{
+	margin-top:670px;
+	height:1500px;
+}
