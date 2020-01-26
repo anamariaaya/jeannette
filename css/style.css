@@ -25,7 +25,7 @@ a{
 	display:block;
 	width:100%;
     z-index: 12;
-    position: absolute;
+    position: fixed;
     top: 0px;
 }
 
