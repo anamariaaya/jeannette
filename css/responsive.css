@@ -91,13 +91,13 @@
 	.divtitulo h2 {
 		font-size: 55px;
 		margin-left: -15%;
-		width: 515px;
+		width: 475px;
 	}
 	.divtitulo p {
 		font-size: 36px;
 		font-weight: bold;
-		margin-left: -35%;
-		margin-top: 85px;
+		margin-left: -10%;
+		margin-top: 15px;
 		text-shadow: 2px 2px 3px #D0CECE;
 	}
 	.divimg img {
@@ -147,9 +147,12 @@
 	}
 	.divlogo img{
 		width:140px;
+		margin-top:230px;
 	}
 	.divtitulo h2{
 		font-size:48px;
+		width:415px;
+		margin-top:285px;
 	}
 	.divtitulo p{
 		font-size:32px;
@@ -177,13 +180,14 @@
 	.divtitulo h2{
 		font-size:45px;
 		margin-left:-7%;
-		margin-top:190px;
+		margin-top:270px;
 		text-shadow: 1px 1px 5px #D0CECE;
+		width:390px;
 	}
 	.divtitulo p{
 		font-size:28px;
-		margin-top:50px;
-		margin-left:-20%;
+		margin-top:15px;
+		margin-left:-5%;
 	}
 	.blogtxt p{
 		font-size:22px;
@@ -223,13 +227,14 @@
 	.divtitulo h2{
 		font-size:40px;
 		margin-left:1%;
-		margin-top:190px;
+		margin-top:270px;
 		text-shadow: 1px 1px 5px #D0CECE;
+		width:345px;
 	}
 	.divtitulo p{
 		font-size:26px;
-		margin-top:50px;
-		margin-left:-15%;
+		margin-top:10px;
+		margin-left:1%;
 	}
 	.divimg img{
 		width:220px;
@@ -247,7 +252,11 @@
 		height:470px;
 	}
 	.divtitulo h2{
-		width:400px;
+		width:345px;
+		margin-top:240px;
+	}
+	.divlogo img{
+		margin-top:200px;
 	}
 	.bodyprin{
 		display:block;
@@ -311,19 +320,22 @@
 		height:440px;
 	}
 	.divtitulo h2{
-		width:400px;
+		width:310px;
 		font-size:36px;
-		margin-top:170px;
+		margin-top:230px;
+		margin-left:-20%;
 	}
 	.divtitulo p{
 		font-size:22px;
-		margin-top:50px
+		margin-top:10px;
+		margin-left:-15%;
 	}
 	.divlogo{
 		width:50%;
 	}
 	.divlogo img{
 		width:100px;
+		margin-top:195px;
 	}
 	.mainquote h3 {
  		font-size: 25px;
@@ -343,14 +355,15 @@
 		background-position:right;
 	}
 	.divtitulo h2{
-		width:350px;
+		width:310px;
 		font-size:36px;
-		margin-top:150px;
+		margin-top:200px;
 		margin-left:0px;
 	}
 	.divtitulo p{
 		font-size:22px;
-		margin-top:50px
+		margin-top:10px;
+		margin-left:10px;
 	}
 	.divtitulo{
 		width:70%;
@@ -360,6 +373,7 @@
 	}
 	.divlogo img{
 		width:90px;
+		margin-top:180px;
 	}
 	.divtxt h2{
 		font-size:28px;
@@ -412,14 +426,14 @@
 
 @media(max-width:485px){
 	.divtitulo h2{
-		width:350px;
+		width:295px;
 		font-size:34px;
-		margin-top:150px;
+		margin-top:200px;
 		margin-left:0px;
 	}
 	.divtitulo p{
 		font-size:20px;
-		margin-top:38px;
+		margin-top:5px;
 	}
 	.divtitulo{
 		width:72%;
@@ -614,7 +628,7 @@
 		position: relative;
 		top: 0px;
 		z-index: -1;
-		margin-top:-1550px;
+		margin-top:-1650px;
 		height:1650px;
 	}
 	.bioback h3{
@@ -670,7 +684,9 @@
 		height:400px;
 		margin-top:1%;
 	}
-	
+	.interesesprin{
+	padding-bottom:160px;
+	}
 }
 
 @media (max-width:1200px){
@@ -680,9 +696,13 @@
 	.titulosobre h1 {
 	    font-size: 55px;
 	}
+	.quotesobre{
+		width:35%;
+	}
 	.quotesobre p {
 		font-size: 20px;
-		padding-bottom:120px;
+		padding-top:120;
+		padding-bottom:100px;
 	}
 	.header2{
 		height:550px;
@@ -743,6 +763,12 @@
 		height:360px;
 		margin-top:-1%;
 	}
+	.interesesprin{
+	padding-bottom:50px;
+	}
+	.titulointereses{
+		margin-top:40px;
+	}
 }
 
 @media(max-width:990px){
@@ -770,9 +796,13 @@
 	.titulosobre h1{
 		font-size:52px;
 	}
+	.quotesobre{
+		width:40%;
+	}
 	.quotesobre p {
 	    font-size: 18px;
     	padding-bottom: 50px;
+		padding-top:110px;
 	}
 	.experienciaprin{
 		margin-top:500px;
@@ -836,10 +866,11 @@
 		padding-top:80px;
 	}
 	.titulointereses {
-		margin-top: 70px;
+		margin-top: 10px;
 	}
 	.titulointereses h3{
 		font-size:36px;
+		padding-top:50px;
 	}
 	.titulointereses p {
 		font-size: 15px;
@@ -863,6 +894,8 @@
 	}
 	.bioback{
 		margin-top:-1050px;
+	}.titulointereses {
+		margin-top: 7px;
 	}
 	
 }
@@ -941,8 +974,12 @@
 	.interesesprin{
 		padding-bottom:70px;
 	}
+	.titulointereses {
+		margin-top: 0px;
+	}
 	.titulointereses h3{
 		font-size:34px;
+		padding-top:10px;
 	}
 	.titulointereses p{
 		font-size:14px;
@@ -950,23 +987,44 @@
 	.cuadro1{
 		margin-top:-64%;
 	}
+	.interesesprin{
+	padding-bottom:30px;
+	}
 	
 }
-@media(max-width:847px){
+
+@media(max-width:852px){
 	.bioback{
 		margin-top:-1100px;
 	}
 }
 
+@media(max-width:847px){
+	.bioback{
+		margin-top:-1100px;
+	}
+}
+@media(max-width:840px){
+	.bioback{
+		margin-top:-1150px;
+	}
+}
 @media(max-width:827px){
 	.bioback{
 		margin-top:-1150px;
 	}
 }
-
+@media(max-width:801px){
+	.bioback{
+		margin-top:-1200px;
+	}
+	.biografiaprin {
+		padding-bottom:110px;
+	}
+}
 @media(max-width:794px){
 	.bioback{
-		margin-top:-1170px;
+		margin-top:-1190px;
 	}
 }
 @media(max-width:780px){
@@ -995,7 +1053,7 @@
 		font-size:46px;
 	}
 	.quotesobre{
-		width:25%;
+		width:40%;
 	}
 	.quotesobre p{
 		font-size:15px;
@@ -1044,7 +1102,7 @@
 		height:13px;
 	}
 	.titulointereses{
-		margin-top:40px;
+		margin-top:0px;
 	}
 	.titulointereses h3 {
 		font-size: 30px;
@@ -1061,6 +1119,13 @@
 		margin-top: 3%;
 	}
 }
+
+@media(max-width:721px){
+	.bioback{
+		margin-top:-1120px;
+	}
+}
+
 @media(max-width:720px){
 	.bioback{
 		margin-top:-1120px;
@@ -1210,7 +1275,7 @@
 		height:2050px;
 	}
 	.quotesobre {
-		width:26%;
+		width:40%;
 		margin-top: -85px;
 	}
 	.cuadro1 {
@@ -1268,7 +1333,7 @@
 	}
 	.quotesobre p {
 		font-size: 12px;
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 		padding-top: 95px;
 	}
 	.cuadro1 {
@@ -1298,7 +1363,7 @@
 	}
 	.quotesobre p {
 		font-size: 11.5px;
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 	}
 	.video {
 		width: 65%;
@@ -1324,10 +1389,10 @@
 	}
 	.quotesobre p {
 		font-size: 11.5px;
-		padding-bottom: 30px;
+		padding-bottom: 20px;
 	}
 	.quotesobre {
-    	width: 27%;
+    	width: 45%;
 	}
 	.experienciatxt h3 {
 		padding-top: 42px;
@@ -1407,7 +1472,7 @@
 		width: 70%;
 	}
 	.titulointereses {
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 	.titulointereses h3 {
 		font-size: 24px;
@@ -1430,6 +1495,13 @@
 		height: 700px;
 	}
 }
+
+@media(max-width:454px){
+	.bioback{
+		margin-top:-1150px;
+	}
+}
+
 @media(max-width:450px){
 	.titulosobre h1 {
 		font-size: 34px;
@@ -1444,7 +1516,7 @@
 		padding-bottom: 30px;
 	}
 	.quotesobre {
-    	width: 28%;
+    	width: 45%;
 	}
 	.interesesprin{
 		height:1450px;
@@ -1456,6 +1528,10 @@
 	}
 	.bioback{
 		margin-top:-1150px;
+	}
+	.interesesprin {
+		padding-bottom:95px;
+		margin-top: 40px;
 	}
 }
 @media(max-width:418px){
@@ -1472,7 +1548,7 @@
 		padding-bottom: 30px;
 	}
 	.quotesobre {
-    	width: 28%;
+    	width: 45%;
 	}
 	.interesesprin{
 		height:1350px;
@@ -1496,13 +1572,18 @@
 		padding-bottom: 30px;
 	}
 	.quotesobre {
-    	width: 30%;
+    	width: 45%;
 	}
 	.interesesprin{
 		height:1350px;
+		padding-bottom:30px;
 	}
 }
-
+@media(max-width:383px){
+	.bioback{
+		margin-top:-1200px;
+	}
+}
 @media(max-width:375px){
 	.portadasobre{
 		width:80%;
@@ -1517,10 +1598,10 @@
 	}
 	.quotesobre p {
 		font-size: 11px;
-		padding-bottom: 30px;
+		padding-bottom: 10px;
 	}
 	.quotesobre {
-    	width: 32%;
+    	width: 45%;
 	}
 	.interesesprin{
 		height:1220px;
@@ -1536,6 +1617,9 @@
 		top: -1100px;
 		height: 500px;
 	}
+	.titulointereses h3{
+		padding-top:2px;
+	}
 }
 @media(max-width:367px){
 	.titulosobre {
@@ -1546,6 +1630,11 @@
 	}
 	.quotesobre {
     	margin-top:-55px;
+	}
+}
+@media(max-width:362px){
+	.bioback{
+		margin-top:-1210px;
 	}
 }
 @media(max-width:350px){
@@ -1560,6 +1649,20 @@
 	.quotesobre p {
 		padding-top: 55px;
 		padding-bottom:22px;
+	}
+}
+@media(max-width:337px){
+	.bioback{
+		margin-top:-1270px;
+	}
+	.biografiaprin {
+		padding-bottom:150px;
+	}
+}
+
+@media (max-width:320px){
+.interesesprin{
+		padding-bottom:0px;
 	}
 }
 

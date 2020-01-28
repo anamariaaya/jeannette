@@ -102,7 +102,7 @@ a{
 	margin-left:auto;
 	margin-right:auto;
 	display:block;
-	margin-top:120px;
+	margin-top:250px;
 }
 
 .divtitulo{
@@ -114,7 +114,7 @@ a{
 	font-family:'arimo';
 	font-size:60px;
 	color:#373b7a;
-	margin-top:200px;
+	margin-top:320px;
 	margin-left:-38%;
 	font-weight:bold;
 	border-bottom:3px solid #8210d2;
@@ -126,8 +126,8 @@ a{
 	color:#545454;
 	font-size:40px;
 	font-weight:bold;
-	margin-left:-49%;
-	margin-top:70px;
+	margin-left:-35%;
+	margin-top:20px;
 }
 
 .bodyprin{
@@ -778,6 +778,7 @@ footer{
 	color:#000000;
 	font-size:55px;
 	text-align:center;
+	padding-top:80px;
 }
 
 .titulointereses p{
