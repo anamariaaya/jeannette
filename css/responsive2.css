@@ -263,33 +263,36 @@
 /*TransformArte*/
 
 @media (max-width:1750px){
+	.fondotituloizq{
+	margin-top:-980px;
+	height:910px;
+	}
+	.fondoimgder{
+	margin-top:-700px;
+	height:400px;
+	margin-bottom:210px;
+	}
 	.fondotituloder{
-	margin-top:-620px;
+	margin-top:-730px;
 	}
 	.fondoimgizq{
 	margin-top:80px;
+	margin-bottom:10px;
 	height:400px;
 	}
+	.fondotituloizq2{
+	margin-top:-760px;
+	}
+	.fondoimgder2{
+	height:400px;
+	margin-top:80px;;
+	}
 	.fondotituloder2{
-	margin-top:-620px;
+	margin-top:-730px;
 	}
 	.fondoimgizq2{
 	margin-top:80px;
 	height:400px;
-	}
-	.fondotituloizq{
-	margin-top:-740px;
-	}
-	.fondoimgder{
-	margin-top:80px;
-	height:400px;
-	}
-	.fondotituloizq2{
-	margin-top:-650px;
-	}
-	.fondoimgder2{
-	height:400px;
-	margin-top:85px;;
 	}
 	.divcoachingsec h3{
 	font-size:50px;
@@ -312,6 +315,14 @@
 	margin-top:650px;
 	font-size:27px;
 	}
+	.quotetrans2 h3{
+	font-size:30px;
+	margin-top:50px;
+	}
+	.progcita4 h2{
+	font-size:35px;
+	padding:35px 0px;
+	}
 }
 
 @media (max-width:1666px){
@@ -324,40 +335,52 @@
 	margin-left:2%;
 	}
 	.fondotituloizq{
-	margin-top:-650px;
+	margin-top:-850px;
+	height:790px;
+	}
+	.fondoimgder{
+	margin-top:-600px;
+	margin-bottom:210px;
 	}
 	.fondotituloder{
-	margin-top:-560px;
+	margin-top:-650px;
 	}
 	.fondotituloizq2{
-	margin-top:-590px;
+	margin-top:-680px;
 	}
 	.fondotituloder2{
-	margin-top:-590px;
+	margin-top:-690px;
+	}
+	.fondoimgizq2{
+	margin-top:80px;
 	}
 }
 
 @media (max-width:1656px){
 	.fondotituloder{
-	margin-top:-590px;
+	margin-top:-690px;
 	}
 }
 
 @media (max-width:1557px){
 	.fondotituloizq{
-	margin-top:-680px;
+	margin-top:-880px;
+	}
+	.fondoimgder{
+	margin-top:-630px;
+	margin-bottom:210px;
 	}
 }
 
 @media (max-width:1528px){
 	.fondotituloizq2{
-	margin-top:-620px;
+	margin-top:-720px;
 	}
 }
 
 @media (max-width:1471px){
 	.fondotituloizq2{
-	margin-top:-650px;
+	margin-top:-760px;
 	}
 }
 
@@ -375,7 +398,7 @@
 	.fondoimgder{
 	width:38%;
 	height:420px;
-	margin-top:70px;;
+	margin-top:-610px;;
 	}
 	.fondoimgizq{
 	width:38%;
@@ -393,25 +416,30 @@
 	margin-top:70px;
 	}
 	.fondotituloder2{
-	margin-top:-620px;
+	margin-top:-730px;
 	}
 }
 
 @media (max-width:1420px){
 	.fondotituloder{
-	margin-top:-620px;
+	margin-top:-730px;
 	}
 }
 
 @media (max-width:1370px){
 	.fondotituloizq{
-	margin-top:-710px;
+	margin-top:-920px;
+	height:850px;
+	}
+	.fondoimgder{
+	margin-top:-700px;;
 	}
 }
 
 @media (max-width:1363px){
 	.fondotituloizq{
-	margin-top:-740px;
+	margin-top:-960px;
+	height:880px;
 	}
 }
 
@@ -439,35 +467,37 @@
 	padding-bottom:20px;
 	}
 	.divcoachingsec p{
-	font-size:18px;;
+	font-size:18px;
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:30px;
 	padding-bottom:20px;
 	}
 	.fondotituloizq{
-	margin-top:-550px;
+	margin-top:-750px;
+	height:750px;
 	}
 	.fondotituloder{
-	margin-top:-490px;
+	margin-top:-585px;
 	}
 	.fondotituloizq2{
-	margin-top:-490px;
+	margin-top:-585px;
 	}
 	.fondotituloder2{
-	margin-top:-490px;
+	margin-top:-585px;
 	}
 	.fondoimgder{
-	margin-bottom:40px;
+	margin-top:-600px;
+	margin-bottom:110px;
 	}
 	.fondoimgizq{
-	margin-bottom:40px;
+	margin-bottom:0px;
 	}
 	.fondoimgder2{
-	margin-bottom:40px;
+	margin-bottom:0px;
 	}
 	.fondoimgizq2{
-	margin-bottom:40px;
+	margin-bottom:80px;
 	}
 }
 
@@ -569,6 +599,10 @@
 	margin-top:600px;
 	font-size:25px;
 	}
+	.quotetrans2 h3{
+	font-size:25px;
+	margin-top:50px;
+	}
 }
 
 @media (max-width:1175px){
@@ -592,6 +626,17 @@
 	}
 	.fondotituloder2{
 	margin-top:-440px;
+	}
+}
+
+@media (max-width:990px){
+	.mainquotetrans h3{
+	margin-top:550px;
+	font-size:25px;
+	}
+	.quotetrans2 h3{
+	font-size:25px;
+	margin-top:50px !important;
 	}
 }
 
@@ -651,6 +696,24 @@
 	.fondoimgizq2{
 	height:280px;
 	margin-top:82px;
+	}
+}
+
+@media (max-width:970px){
+	.botonestranssec{
+	margin-top:60px;
+	}
+	.botonestranssec p{
+	font-size:27px;
+	width:280px;
+	}
+	.boton1{
+	padding-top:27px;
+	padding-bottom:27px;
+	}
+	.boton2{
+	padding-top:12px;
+	padding-bottom:12px;
 	}
 }
 
@@ -808,6 +871,34 @@
 	}
 }
 
+@media (max-width:880px){
+	.botonestranssec{
+	margin-top:50px;
+	}
+	.botonestranssec p{
+	font-size:24px;
+	width:240px;
+	}
+	.boton1{
+	padding-top:23px;
+	padding-bottom:23px;
+	}
+	.boton2{
+	padding-top:9px;
+	padding-bottom:9px;
+	}
+}
+
+@media (max-width:860px){
+	.mainquotetrans h3{
+	margin-top:500px;
+	font-size:20px;
+	}
+	.quotetrans2 h3{
+	font-size:20px;
+	}
+}
+
 @media (max-width:845px){
 	.abajo{
 	position:relative;
@@ -850,6 +941,13 @@
 	}
 }
 
+@media (max-width:780px){
+	.mainquotetrans h3{
+	margin-top:470px;
+	font-size:20px;
+	}
+}
+
 @media (max-width:760px){
 	.divcoachingsec h3{
 	font-size:5.7vw;
@@ -876,6 +974,24 @@
 	.abajo2{
 	position:relative;
 	top:310px;
+	}
+}
+
+@media (max-width:750px){
+	.botonestranssec{
+	margin-top:40px;
+	}
+	.botonestranssec p{
+	font-size:21px;
+	width:200px;
+	}
+	.boton1{
+	padding-top:21px;
+	padding-bottom:21px;
+	}
+	.boton2{
+	padding-top:9px;
+	padding-bottom:9px;
 	}
 }
 
@@ -941,6 +1057,16 @@
 	}
 }
 
+@media (max-width:700px){
+	.mainquotetrans h3{
+	margin-top:420px;
+	font-size:18px;
+	}
+	.quotetrans2 h3{
+	font-size:18px;
+	}
+}
+
 @media (max-width:694px){
 	.abajo{
 	position:relative;
@@ -974,6 +1100,31 @@
 	.abajo2{
 	position:relative;
 	top:170px;
+	}
+}
+
+@media (max-width:621px){
+	.botonestrans{
+	display:block;
+	}
+	.botonestranssec{
+	width:100%;
+	margin-top:70px;
+	}
+	.botonestranssec{
+	margin-top:40px;
+	}
+	.botonestranssec p{
+	font-size:28px;
+	width:300px;
+	}
+	.boton1{
+	padding-top:25px;
+	padding-bottom:25px;
+	}
+	.boton2{
+	padding-top:9px;
+	padding-bottom:9px;
 	}
 }
 
@@ -1179,6 +1330,24 @@
 	}
 }
 
+@media (max-width:405px){
+	.botonestranssec{
+	margin-top:25px;
+	}
+	.botonestranssec p{
+	font-size:22px;
+	width:210px;
+	}
+	.boton1{
+	padding-top:21px;
+	padding-bottom:21px;
+	}
+	.boton2{
+	padding-top:9px;
+	padding-bottom:9px;
+	}
+}
+
 @media (max-width:400px){
 	.abajo{
 	top:255px;
@@ -1245,6 +1414,31 @@
 	height:200px;
 	margin-top:-270px;
 	margin-bottom:500px;
+	}
+}
+
+@media (max-width:385px){
+	.mainquotetrans h3{
+	margin-top:420px;
+	font-size:14px;
+	}
+	.quotetrans2 h3{
+	font-size:14px;
+	}
+	.botonestranssec{
+	margin-top:25px;
+	}
+	.botonestranssec p{
+	font-size:18px;
+	width:190px;
+	}
+	.boton1{
+	padding-top:16px;
+	padding-bottom:16px;
+	}
+	.boton2{
+	padding-top:7px;
+	padding-bottom:7px;
 	}
 }
 
