@@ -2126,9 +2126,6 @@
 	.contactoprin{
 		margin-top:550px;
 	}
-	.transfgral{
-		margin-top:550px;
-	}
 }
 
 @media(max-width:990px){
@@ -2138,14 +2135,6 @@
 	}
 	.contactoprin{
 		margin-top:500px;
-	}
-	.transfgral{
-		margin-top:450px;
-	}
-}
-@media(max-width:895px){
-	.transfgral{
-		margin-top:610px;
 	}
 }
 @media(max-width:780px){
@@ -2163,14 +2152,5 @@
 	}
 	.contactoprin{
 		margin-top:400px;
-	}
-	.transfgral{
-		margin-top:450px;
-	}
-}
-
-@media(max-width:557px){
-	.transfgral{
-		margin-top:500px;
 	}
 }
