@@ -308,6 +308,10 @@
 	text-align:justify;
 	margin-top:120px;
 	}
+	.mainquotetrans h3{
+	margin-top:650px;
+	font-size:27px;
+	}
 }
 
 @media (max-width:1666px){
@@ -557,6 +561,13 @@
 	height:50px;
 	width:42%;
 	margin-left:52%;
+	}
+}
+
+@media (max-width:1200px){
+	.mainquotetrans h3{
+	margin-top:600px;
+	font-size:25px;
 	}
 }
 
