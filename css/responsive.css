@@ -1669,12 +1669,29 @@
 /*DesarrollArte*/
 @media(max-width:1800px){
 	.progcita4{
-		height:120px;
+		height:90px;
 	}
 	.progcita4 h2{
-		font-size:36px;
+		font-size:36px !important;
+	}
+	.progcita3 p{
+		padding-top:110px;
 	}
 }
+
+@media(max-width:1330px){
+	.progcita4{
+		height:80px;
+	}
+	.progcita4 h2{
+		font-size:30px !important;
+	}
+	.progcita3 p{
+		padding-top:115px;
+		font-size:22px;
+	}
+}
+
 @media(max-width:1200px){
 	.programasdesarrollo h2{
 		font-size:40px;
@@ -1702,6 +1719,22 @@
 		padding-top:70px;
 	}
 }
+
+@media (max-width:1076px){
+	.progcita4{
+		height:75px;
+		width:25%;
+		margin-left:55%;
+	}
+	.progcita4 h2{
+		font-size:27px !important;
+	}
+	.progcita3 p{
+		padding-top:110px;
+		font-size:22px;
+	}
+}
+
 @media(max-width:990px){
 	.programasdesarrollo{
 		margin-top:600px;
@@ -1735,14 +1768,15 @@
 		padding-top: 50px;
 	}
 	.progcita3 p{
-		font-size:26px;
+		font-size:22px;
+		padding-top:75px;
 	}
 	.progcita4{
-		width:22%;
-		margin-left:57%;
+		width:25%;
+		margin-top:-240px;
 	}
 	.progcita4 h2{
-		font-size:32px;
+		font-size:26px !important;
 		padding:20px 5px;
 	}
 }
@@ -1784,17 +1818,19 @@
 		margin-top:-560px;
 	}
 	.progcita3 p{
-		font-size:2.8vw;
-	    padding-top: 90px;
+		font-size:2.4vw;
+	    padding-top: 60px;
 	    padding-bottom: 90px;
 	}
 	.progcita4{
-		width:22%;
+		width:25%;
 		margin-left:57%;
+		height:75px;
+		margin-top:-210px;
 	}
 	.progcita4 h2{
-		font-size:3.2vw;
-	    padding: 28px 5px;
+		font-size:2.8vw !important;
+	    padding: 20px 5px;
 	}
 	.blanco{
 		height:300px;
@@ -1804,6 +1840,17 @@
 	.programasdesarrollo{
 		margin-top:500px;
 	}	
+}
+
+@media(max-width:720px){
+	.progcita3 p{
+		font-size:2.7vw;
+	    padding-top: 70px;
+	    padding-bottom: 90px;
+	}
+	.progcita4{
+		height:70px;
+	}
 }
 
 @media(max-width:650px){
@@ -1856,7 +1903,7 @@
 	}
 	.progcita3 p{
 		font-size:2.8vw;
-	    padding-top: 90px;
+	    padding-top: 45px;
 	    padding-bottom: 90px;
 	}
 	.progcita4{
@@ -1865,7 +1912,7 @@
 		margin-top:-195px;
 	}
 	.progcita4 h2{
-		font-size:3.2vw;
+		font-size:3.2vw !important;
 	    padding: 28px 5px;
 	}
 	.blanco{
@@ -1941,7 +1988,7 @@
 	}
 	.progcita3 p{
 		font-size:2.8vw;
-	    padding-top: 43px;
+	    padding-top: 20px;
 	    padding-bottom: 43px;
 		width:80%;
 	}
@@ -1952,7 +1999,7 @@
 		margin-left:30%;
 	}
 	.progcita4 h2{
-		font-size:3.2vw;
+		font-size:3.2vw !important;
         padding: 15px 5px;
 	}
 	.blanco{
@@ -2038,7 +2085,7 @@
 	}
 	.progcita3 p{
 		font-size:3.3vw;
-	    padding-top: 40px;
+	    padding-top: 15px;
 	    padding-bottom: 43px;
 		width:80%;
 	}
@@ -2049,7 +2096,7 @@
 		margin-left:30%;
 	}
 	.progcita4 h2{
-		font-size:3.8vw;
+		font-size:3.8vw !important;
         padding: 15px 5px;
 	}
 	.blanco{
@@ -2108,12 +2155,12 @@
 	}
 	.progcita3 p{
 		font-size:3.7vw;
-	    padding-top: 40px;
+	    padding-top: 10px;
 	    padding-bottom: 43px;
 		width:80%;
 	}
 	.progcita4 h2{
-		font-size:4.2vw;
+		font-size:4.2vw !important;
         padding: 15px 5px;
 	}
 }

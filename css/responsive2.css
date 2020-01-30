@@ -320,10 +320,6 @@
 	font-size:30px;
 	margin-top:50px;
 	}
-	.progcita4 h2{
-	font-size:35px;
-	padding:35px 0px;
-	}
 }
 
 @media (max-width:1666px){
@@ -542,22 +538,26 @@
 }
 
 @media (max-width:1212px){
+	.fondotituloizq{
+	margin-top:-770px;
+	height:680px;
+	}
 	.fondotituloder2{
-	margin-top:-625px;
+	margin-top:-705px;
 	}
 }
 
 @media (max-width:1207px){
 	.fondotituloizq2{
-	margin-top:-625px;
+	margin-top:-755px;
 	}
 }
 
 @media (max-width:1205px){
 	.fondoimgder{
 	height:330px;
-	margin-top:-600px;
-	margin-bottom:260px;
+	margin-top:-400px;
+	margin-bottom:60px;
 	}
 	.fondoimgizq{
 	height:330px;
@@ -606,13 +606,13 @@
 	margin-top:3px;
 	}
 	.fondotituloizq{
-	margin-top:-740px;
-	height:750px;
+	margin-top:-680px;
+	height:600px;
 	width:45%;
 	margin-left:1%;
 	}
 	.fondotituloder{
-	margin-top:-500px;
+	margin-top:-610px;
 	height:50px;
 	width:42%;
 	margin-left:52%;
@@ -757,6 +757,9 @@
 	.boton2{
 	padding-top:12px;
 	padding-bottom:12px;
+	}
+	.botonestranssec img{
+	width:280px;
 	}
 }
 
@@ -930,6 +933,9 @@
 	padding-top:9px;
 	padding-bottom:9px;
 	}
+	.botonestranssec img{
+	width:240px;
+	}
 }
 
 @media (max-width:860px){
@@ -1035,6 +1041,9 @@
 	.boton2{
 	padding-top:9px;
 	padding-bottom:9px;
+	}
+	.botonestranssec img{
+	width:200px;
 	}
 }
 
@@ -1168,6 +1177,9 @@
 	.boton2{
 	padding-top:9px;
 	padding-bottom:9px;
+	}
+	.botonestranssec img{
+	width:300px;
 	}
 }
 
@@ -1389,6 +1401,9 @@
 	padding-top:9px;
 	padding-bottom:9px;
 	}
+	.botonestranssec img{
+	width:210px;
+	}
 }
 
 @media (max-width:400px){
@@ -1482,6 +1497,9 @@
 	.boton2{
 	padding-top:7px;
 	padding-bottom:7px;
+	}
+	.botonestranssec img{
+	width:190px;
 	}
 }
 
