@@ -29,6 +29,20 @@ a{
     top: 0px;
 }
 
+.dias{
+	width:250px;
+	margin-right:0px;
+	position:absolute;
+	top:19px;
+	left:5;
+}
+
+.dias:after{
+	clear:both;
+	content:"";
+	display:table;
+}
+
 .menu{
 	height:90px;
 	background-color: rgba(130,16,210,0.9);
@@ -50,7 +64,7 @@ a{
 }
 
 .menu ul{
-	margin-left:26%;
+	margin-left:15%;
 	padding-top:30px;
 	display:inline-flex;
 	float:left;
@@ -62,7 +76,7 @@ a{
 	color:#ffffff;
 	font-family:'arimo';
 	font-size:23px;
-	margin-left:4.5%;
+	margin-left:7.5%;
 }
 .menu ul a:hover{
 	background-color:rgba(255,255,255,0.2);
@@ -81,6 +95,16 @@ a{
 @font-face {
   font-family: amaranth;
   src:url('../fuentes/Amaranth-Regular.ttf');
+}
+
+@font-face {
+  font-family: candle;
+  src:url('../fuentes/Candlescript%20Demo%20Version.otf');
+}
+
+@font-face {
+  font-family: vibes;
+  src:url('../fuentes/GreatVibes-Regular.ttf');
 }
 
 .portadaprin{
@@ -110,23 +134,30 @@ a{
 	display:block;
 }
 
-.divtitulo h2{
-	font-family:'arimo';
-	font-size:60px;
-	color:#373b7a;
-	margin-top:320px;
-	margin-left:-38%;
-	font-weight:bold;
+.divtitulo img{
+	width:60%;
+	margin-top:280px;
+	margin-left:-41%;
 	border-bottom:3px solid #8210d2;
-	width:515px;
 }
+
+/*.divtitulo h2{
+	font-family:'candle';
+	font-size:78px;
+	color:#373b7a;
+	margin-top:270px;
+	margin-left:-43%;
+	border-bottom:3px solid #8210d2;
+	width:530px;
+	height:105px;
+}*/
 
 .divtitulo p{
 	font-family:'coneria';
 	color:#545454;
 	font-size:40px;
 	font-weight:bold;
-	margin-left:-35%;
+	margin-left:-38%;
 	margin-top:20px;
 }
 
@@ -847,6 +878,7 @@ footer{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:60px;
+	margin-bottom:50px;
 }
 
 .botonestrans{
@@ -859,6 +891,13 @@ footer{
 	margin-top:70px;
 }
 
+.botonestranssec img{
+	width:300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .botonestranssec p{
 	background-color:rgba(130,16,210,1);
 	color:#ffffff;
@@ -868,7 +907,8 @@ footer{
 	margin-left:auto;
 	margin-right:auto;
 	font-family:'amaranth';
-	border-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
 }
 
 .boton1{
@@ -892,6 +932,7 @@ footer{
 
 .divcoachingsec{
 	width:50%;
+	margin-top:20px;
 }
 
 .divcoachingsec h2{
@@ -901,7 +942,7 @@ footer{
 	text-align:justify;
 	margin-left:20%;
 	margin-right:20%;
-	margin-top:80px;
+	margin-top:40px;
 	font-weight:bold;
 }
 
@@ -920,7 +961,62 @@ footer{
 	font-size:55px;
 	text-align:justify;
 	margin-left:10%;
-	margin-top:120px;
+
+}
+
+.citas{
+	width:250px;
+	background-color:rgba(130,16,210,1);
+	font-family:'amaranth';
+	font-size:25px;
+	color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border-radius:10px;
+	padding:7px;
+	cursor:pointer;
+	margin-bottom:100px;
+}
+
+.citas2{
+	width:250px;
+	background-color:rgba(130,16,210,1);
+	font-family:'amaranth';
+	font-size:25px;
+	color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border-radius:10px;
+	padding:7px;
+	cursor:pointer;
+	margin-bottom:120px;
+}
+
+.citas3{
+	width:250px;
+	background-color:rgba(130,16,210,1);
+	font-family:'amaranth';
+	font-size:25px;
+	color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border-radius:10px;
+	padding:7px;
+	cursor:pointer;
+	margin-bottom:150px;
+}
+
+.citas:hover{
+	background-color:#7f6f7a;
+}
+.citas2:hover{
+	background-color:#7f6f7a;
+}
+.citas3:hover{
+	background-color:#7f6f7a;
 }
 
 .divcoachingsec p{
@@ -931,8 +1027,8 @@ footer{
 	margin-left:20%;
 	margin-right:25%;
 	margin-top:40px;
-	line-height:40px;
-	padding-bottom:100px;
+	line-height:35px;
+	padding-bottom:30px;
 }
 
 .divcoachingsec p span{
@@ -942,21 +1038,21 @@ footer{
 	text-align:left;
 	margin-left:10%;
 	margin-right:25%;
-	margin-top:5px;
+	margin-top:8px;
 	font-weight:bold;
 }
 
 .divcoachingsec img{
 	width:65%;
-	margin-top:20%;
+	margin-top:40px;
 	margin-left:10%;
 }
 
 .fondotituloizq{
 	background-color:lightsteelblue;
 	width:48%;
-	height:800px;
-	margin-top:-850px;
+	height:730px;
+	margin-top:-790px;
 	margin-left:2%;
 }
 
@@ -964,16 +1060,16 @@ footer{
 	background-color:lightsteelblue;
 	width:30%;
 	height:450px;
-	margin-top:-560px;;
+	margin-top:-580px;;
 	margin-left:60%;
-	margin-bottom:60px;
+	margin-bottom:200px;
 }
 
 .fondotituloder{
 	background-color:#dad1e0;
 	width:48%;
 	height:70px;
-	margin-top:-700px;
+	margin-top:-730px;
 	margin-left:47%;
 }
 
@@ -981,16 +1077,16 @@ footer{
 	background-color:#dad1e0;
 	width:30%;
 	height:450px;
-	margin-top:123px;
+	margin-top:90px;
 	margin-left:2%;
-	margin-bottom:10px;
+	margin-bottom:100px;
 }
 
 .fondotituloizq2{
 	background-color:#dad1e0;
 	width:48%;
 	height:70px;
-	margin-top:-730px;
+	margin-top:-785px;
 	margin-left:2%;
 }
 
@@ -998,16 +1094,16 @@ footer{
 	background-color:#dad1e0;
 	width:30%;
 	height:450px;
-	margin-top:123px;;
+	margin-top:90px;;
 	margin-left:60%;
-	margin-bottom:10px;
+	margin-bottom:100px;
 }
 
 .fondotituloder2{
 	background-color:#dad1e0;
 	width:48%;
 	height:70px;
-	margin-top:-700px;
+	margin-top:-710px;
 	margin-left:47%;
 }
 
@@ -1015,13 +1111,14 @@ footer{
 	background-color:#dad1e0;
 	width:30%;
 	height:450px;
-	margin-top:123px;
+	margin-top:90px;
 	margin-left:2%;
 	margin-bottom:100px;
 }
 
 .divcoaching2{
 	width:50%;
+	margin-top:20px;
 }
 
 .divcoaching2 h3{
@@ -1029,7 +1126,7 @@ footer{
 	color:#000000;
 	font-size:55px;
 	text-align:justify;
-	margin-top:120px;
+	margin-top:0px;
 }
 
 .divcoaching2 p{
@@ -1040,13 +1137,13 @@ footer{
 	margin-right:25%;
 	margin-left:10%;
 	margin-top:50px;
-	line-height:40px;
-	padding-bottom:100px;
+	line-height:35px;
+	padding-bottom:30px;
 }
 
 .divcoaching2 img{
 	width:65%;
-	margin-top:20%;
+	margin-top:40px;
 	margin-left:10%;
 }
 
