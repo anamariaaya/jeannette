@@ -618,13 +618,13 @@
 	margin-left:52%;
 	}
 	.fondotituloizq2{
-	margin-top:-465px;
+	margin-top:-595px;
 	height:50px;
 	width:42%;
 	margin-left:4%;
 	}
 	.fondotituloder2{
-	margin-top:-500px;
+	margin-top:-590px;
 	height:50px;
 	width:42%;
 	margin-left:52%;
@@ -634,6 +634,15 @@
 	margin-left:5%;
 	margin-right:20%;
 	margin-top:40px;
+	}
+}
+
+@media (max-width:1201px){
+	.fondotituloder2{
+	margin-top:-625px;
+	height:50px;
+	width:42%;
+	margin-left:52%;
 	}
 }
 
@@ -650,25 +659,28 @@
 
 @media (max-width:1175px){
 	.fondotituloder{
-	margin-top:-450px;
+	margin-top:-610px;
 	}
 	.fondotituloizq2{
-	margin-top:-450px;
+	margin-top:-595px;
 	}
 	.fondotituloder2{
-	margin-top:-450px;
+	margin-top:-625px;
 	}
 }
 
-@media (max-width:1145px){
+@media (max-width:1147px){
 	.fondotituloder{
-	margin-top:-440px;
+	margin-top:-645px;
 	}
 	.fondotituloizq2{
-	margin-top:-440px;
+	margin-top:-630px;
 	}
-	.fondotituloder2{
-	margin-top:-440px;
+}
+
+@media (max-width:1042px){
+	.fondotituloizq2{
+	margin-top:-665px;
 	}
 }
 
@@ -680,6 +692,9 @@
 	.quotetrans2 h3{
 	font-size:25px;
 	margin-top:50px !important;
+	}
+	.fondotituloder2{
+	margin-top:-660px;
 	}
 }
 
@@ -709,24 +724,24 @@
 	font-size:21px;
 	}
 	.fondotituloizq{
-	margin-top:-415px;
-	height:35px;
+	margin-top:-600px;
+	height:550px;
 	}
 	.fondotituloder{
-	margin-top:-390px;
+	margin-top:-545px;
 	height:35px;
 	}
 	.fondotituloizq2{
-	margin-top:-365px;
+	margin-top:-540px;
 	height:35px;
 	}
 	.fondotituloder2{
-	margin-top:-390px;
+	margin-top:-525px;
 	height:35px;
 	}
 	.fondoimgder{
 	height:280px;
-	margin-top:82px;;
+	margin-top:-380px;;
 	}
 	.fondoimgizq{
 	height:280px;
@@ -765,19 +780,22 @@
 
 @media (max-width:946px){
 	.fondotituloizq{
-	margin-top:-440px;
-	}
-}
-
-@media (max-width:937px){
-	.fondotituloder2{
-	margin-top:-415px;
+	margin-top:-620px;
 	}
 }
 
 @media (max-width:937px){
 	.fondotituloizq2{
-	margin-top:-390px;
+	margin-top:-540px;
+	}
+	.fondotituloder2{
+	margin-top:-550px;
+	}
+}
+
+@media (max-width:929px){
+	.fondotituloizq2{
+	margin-top:-565px;
 	}
 }
 
@@ -792,6 +810,9 @@
 	.divcoaching2{
 	width:100%;
 	}
+	.divcoachingsec h2{
+	font-size:28px;
+	}
 	.divcoachingsec h3{
 	font-size:50px;
 	margin-top:80px;
@@ -802,9 +823,11 @@
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:15px;
+	line-height:29px;
+	padding-bottom:50px;
 	}
 	.divcoachingsec p span{
-	font-size:30px;
+	font-size:26px;
 	}
 	.divcoaching2 h3{
 	font-size:50px;
@@ -821,6 +844,7 @@
 	margin-left:10%;
 	margin-top:15px;
 	padding-bottom:50px;
+	line-height:29px;
 	}
 	.divcoachingsec img{
 	width:60%;
@@ -838,7 +862,7 @@
 	}
 	.arriba{
 	position:relative;
-	top:-520px;
+	top:-600px;
 	}
 	.arriba2{
 	position:relative;
@@ -846,29 +870,29 @@
 	}
 	.abajo{
 	position:relative;
-	top:490px;
+	top:540px;
 	}
 	.abajo2{
 	position:relative;
-	top:370px;
+	top:560px;
 	}
 	.fondotituloizq{
-	width:75%;
-	height:50px;
-	margin-top:-420px;
-	margin-left:8%;
+	width:90%;
+	height:590px;
+	margin-top:-540px;
+	margin-left:2%;
 	}
 	.fondoimgder{
 	width:62%;
 	height:400px;
-	margin-top:-505px;;
+	margin-top:-1020px;;
 	margin-left:25%;
-	margin-bottom:530px;
+	margin-bottom:690px;
 	}
 	.fondotituloder{
 	width:75%;
 	height:50px;
-	margin-top:-380px;
+	margin-top:-565px;
 	margin-left:8%;
 	}
 	.fondoimgizq{
@@ -876,7 +900,7 @@
 	height:400px;
 	margin-top:-480px;;
 	margin-left:25%;
-	margin-bottom:600px;
+	margin-bottom:520px;
 	}
 	.fondotituloizq2{
 	width:75%;
@@ -889,12 +913,12 @@
 	height:400px;
 	margin-top:-510px;;
 	margin-left:25%;
-	margin-bottom:450px;
+	margin-bottom:560px;
 	}
 	.fondotituloder2{
 	width:75%;
 	height:50px;
-	margin-top:-380px;
+	margin-top:-545px;
 	margin-left:8%;
 	}
 	.fondoimgizq2{
@@ -902,18 +926,7 @@
 	height:400px;
 	margin-top:-480px;;
 	margin-left:25%;
-	margin-bottom:450px;
-	}
-}
-
-@media (max-width:894px){
-	.abajo{
-	position:relative;
-	top:480px;
-	}
-	.abajo2{
-	position:relative;
-	top:350px;
+	margin-bottom:550px;
 	}
 }
 
@@ -951,7 +964,7 @@
 @media (max-width:845px){
 	.abajo{
 	position:relative;
-	top:450px;
+	top:510px;
 	}
 }
 
@@ -1403,6 +1416,9 @@
 	}
 	.botonestranssec img{
 	width:210px;
+	}
+	.divcoachingsec h2{
+	font-size:4.5vw;
 	}
 }
 
