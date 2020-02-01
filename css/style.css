@@ -13,6 +13,32 @@ a{
 	margin:0;
 }
 
+/*Submenú*/
+.dropdown {
+	padding-left:25px;
+  overflow: hidden;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(156,186,213,0.9);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Fin Submenú*/
 .header1{
 	background-image:url('../img/index/1.jpg');
 	width:100%;
@@ -31,11 +57,11 @@ a{
 }
 
 .dias{
-	width:250px;
+	width:20%;
 	margin-right:0px;
 	position:absolute;
 	top:19px;
-	left:5;
+	left:5px;
 }
 
 .dias:after{
@@ -54,9 +80,9 @@ a{
 	width:60px;
 	height:60px;
 	float:right;
-	margin-top:15px;
-	margin-right:10%;
-	position:relative;	
+	position: absolute;
+    top: 15px;
+    right: 50px;
 }
 
 .hamburguesa{
@@ -77,7 +103,7 @@ a{
 	color:#ffffff;
 	font-family:'arimo';
 	font-size:23px;
-	margin-left:7.5%;
+	margin-left:5.5%;
 }
 .menu ul a:hover{
 	background-color:rgba(255,255,255,0.2);

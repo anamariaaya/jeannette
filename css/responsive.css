@@ -4,7 +4,7 @@
 /*Menú*/
 @media (max-width:1052px){
 	.menu{
-		font-size:20px;
+		font-size:17px;
 		z-index:1;
 		overflow:hidden;
 	}
@@ -45,7 +45,6 @@
 		padding:10px;
 	}
 	.menu.responsive ul a{
-		margin-top:5.4%;
 		margin-bottom:4%;
 	}
 	.menu.responsive hamburguesa{
@@ -54,13 +53,27 @@
 		margin-top:3%;
 		color:#fff;
 	}
+	.dropdown{
+		padding-left:0px;
+	}
+	.dropdown-content{
+		height:auto;
+		position:relative;
+	}
+	.menu ul a .dropdown-content a {
+	  padding: 5px 12px !important;
+	}
 	.logomenu {
 		width: 60px;
 		height: 60px;
-		float: left;
-		position: absolute;
-		left: 85px;
-		top:0px;
+		position:absolute;
+		top:15px;
+		left:15px;
+	}
+	.dias{
+		width:25%;
+		top:20px;
+	    left: 65px;
 	}
 	.menu.responsive ul a:hover{
 		background-color:rgba(255,255,255,0.2);
@@ -70,20 +83,16 @@
 /*Index*/
 @media(max-width:1800px){
 	.menu ul a {
-		font-size: 18px;
-		margin-left: 4.8%;
+		font-size: 17px;
 	}
 	
-	.logomenu{
-		margin-right:110px;
-	}
 	.menu ul{
 		width: 60%;
-		margin-left:20%;
+		margin-left:25%;
 	}
 	
 	.divlogo{
-		width:30%;
+		width:20%;
 	}
 	.divtitulo{
 		width:auto;
@@ -234,6 +243,9 @@
 	.header1{
 		height:500px;
 	}
+	.dias{
+		width:30%;
+	}
 	.divtitulo h2{
 		font-size:40px;
 		margin-left:1%;
@@ -327,6 +339,9 @@
 }
 
 @media(max-width:625px){
+	.dias{
+		width:37%;
+	}
 	.divtitulo h2{
 		width:310px;
 		font-size:36px;
@@ -358,6 +373,17 @@
 }
 
 @media(max-width:580px){
+	.logomenu{
+		width:50px;
+		height:50px;
+		top:20px;
+	}
+	.dias{
+		top:30px;
+	}
+	.menu.responsive ul a{
+		text-align:left;
+	}
 	.header1{
 		background-image:url('../img/index/1resp.jpg');
 		background-position:center;
@@ -444,6 +470,9 @@
 	.bodyprin{
 		margin-top:-100px;
 	}
+	.menu.responsive ul a{
+		font-size:15px;
+	}
 	.divtitulo h2{
 		width:295px;
 		font-size:34px;
@@ -474,6 +503,9 @@
 }
 
 @media(max-width:425px){
+	.dias{
+		width:45%;
+	}
 	.bodyprin{
 		margin-top:-120px;
 	}
@@ -558,14 +590,23 @@
 		top:-75px;
 		left:70px;
 	}
+	.menu.responsive ul a{
+		font-size:14px;
+	}
 	.header1{
 		height:400px;
 	}
 }
 
 @media(max-width:328px){
+	.dias{
+		width:55%;
+	}
 	.header1{
 		height:350px;
+	}
+	.menu.responsive ul a{
+		font-size:12px;
 	}
 	.divtitulo h2{
 		top:-75px;
