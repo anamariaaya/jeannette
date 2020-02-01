@@ -1252,17 +1252,29 @@ footer{
 	margin-right:auto;
 	height:auto;
 	margin-top:700px;
+	margin-bottom:150px;
 }
 
 .programasdesarrollo h2{
-	width:140%;
-	margin-left:-20%;
+	width:100%;
+	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
-	font-size:45px;
+	font-size:40px;
 	font-family:'coneria';
 	font-weight:bold;
 	padding-top:50px;
+}
+
+.programasdesarrollo h3{
+	text-align:center;
+	padding-bottom:50px;
+	font-family:'amaranth';
+	padding-top:40px;
+	color:rgba(149,156,166,1);
+	font-size:35px;
+	width:140%;
+	margin-left:-20%;
 }
 
 .programasdesarrollo p{
@@ -1279,9 +1291,11 @@ footer{
 
 .desarrolloprin{
 	margin-bottom:100px;
+	width:100%;
+	display:inline-flex;
 }
 
-.titulosdesarrollo{
+/*.titulosdesarrollo{
 	width:80%;
 	margin-top:7%;
 }
@@ -1361,7 +1375,82 @@ footer{
 	margin-right:15%;
 	padding-top:100px;
 	text-align:center;
+}*/
+
+/*Dropdown*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgba(130,16,210,1);
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  height:90px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:'coneria';
+  font-weight:bold;
+  display:block;
+  border-radius:10px;
+  font-size:30px; 
 }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #7f6f7a;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 25px 18px;
+  background-color: #dad1e0;
+  display: none;
+  overflow: hidden;
+  width:76%;
+  color:#000000;
+  border:2px solid black;
+  border-radius:10px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:25px;
+  font-family:'amaranth';
+  font-weight:bold;
+}
+
+.panel ul{
+	margin-left:5%;
+}
+
+.panel p{
+	padding-bottom:80px;
+}
+
+.panel p span{
+	font-family:'coneria';
+	font-size:35px;
+}
+
+.ajusteinfo{
+	width:100%;
+}
+
+.ajusteinfo2{
+	margin-left:0%;
+}
+
+.ajusteinfo2 img{
+	width:80%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+}
+
 /*Fin DesarrollArte*/
 
 /*Inicio Blog*/
