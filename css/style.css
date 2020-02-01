@@ -913,6 +913,11 @@ footer{
 	width:100%;
 }
 
+.botonestrans a{
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .botonestranssec{
 	width:33.33%;
 	margin-top:70px;
@@ -1076,7 +1081,7 @@ footer{
 }
 
 .fondotituloizq{
-	background-color:lightsteelblue;
+	background-color:rgba(156,186,213,0.5);
 	width:48%;
 	height:730px;
 	margin-top:-790px;
@@ -1084,7 +1089,7 @@ footer{
 }
 
 .fondoimgder{
-	background-color:lightsteelblue;
+	background-color:rgba(156,186,213,0.5);
 	width:30%;
 	height:450px;
 	margin-top:-580px;;
