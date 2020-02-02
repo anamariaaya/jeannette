@@ -15,14 +15,14 @@ a{
 
 /*Submenú*/
 .dropdown {
-	padding-left:25px;
+  padding-left:65px;
   overflow: hidden;
 }
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: rgba(156,186,213,0.9);
-  min-width: 160px;
+  min-width: 180px;
   z-index: 1;
 }
 
@@ -60,7 +60,7 @@ a{
 	width:20%;
 	margin-right:0px;
 	position:absolute;
-	top:19px;
+	top:9px;
 	left:5px;
 }
 
@@ -91,7 +91,7 @@ a{
 }
 
 .menu ul{
-	margin-left:15%;
+	margin-left:25%;
 	padding-top:30px;
 	display:inline-flex;
 	float:left;
@@ -103,7 +103,7 @@ a{
 	color:#ffffff;
 	font-family:'arimo';
 	font-size:23px;
-	margin-left:5.5%;
+	margin-left:6%;
 }
 .menu ul a:hover{
 	background-color:rgba(255,255,255,0.2);
@@ -1427,7 +1427,7 @@ footer{
 }
 
 .panel p{
-	padding-bottom:80px;
+	padding-bottom:20px;
 }
 
 .panel p span{
