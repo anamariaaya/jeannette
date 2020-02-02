@@ -1531,9 +1531,32 @@ footer{
 	font-family:'amaranth';
 	margin-top:3px;
 	font-size:14px;
-}	
+}
+
+.input2{
+	float:left;
+	height:25px;
+    padding: 5px;
+	margin-left:20px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	box-sizing: border-box;
+	resize:none;
+	background-color:#dad1e0;
+	margin-top:15px;
+	font-size:14px;
+}		
 
 input[type=radio]{
+	float:left;
+	cursor: pointer;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type=checkbox]{
 	float:left;
 	cursor: pointer;
 	-webkit-user-select: none;
