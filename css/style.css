@@ -1170,11 +1170,12 @@ footer{
 }
 .fondoimgder{
 	background-color:rgba(156,186,213,0.5);
-	width:30%;
-	height:450px;
-	margin-top:-580px;;
-	margin-left:20%;
-	margin-bottom:200px;
+	width: 65%;
+    height: 350px;
+    position: relative;
+    top: -40%;
+    left: 15%;
+    z-index: -1;
 }
 
 .progcita{

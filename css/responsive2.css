@@ -267,11 +267,6 @@
 /*TransformArte*/
 
 @media (max-width:1750px){
-	.fondoimgder{
-	margin-top:-700px;
-	height:400px;
-	margin-bottom:310px;
-	}
 	.mainquotetrans h3{
 	margin-top:650px;
 	font-size:27px;
@@ -286,17 +281,6 @@
 	.divcoachingsec p{
 	margin-left:12%;
 	margin-right:18%;
-	}
-	.fondoimgder{
-	margin-top:-600px;
-	margin-bottom:210px;
-	}
-}
-
-@media (max-width:1557px){
-	.fondoimgder{
-	margin-top:-660px;
-	margin-bottom:300px;
 	}
 }
 
