@@ -205,7 +205,7 @@ a{
 
 .divimg img{
 	width:450px;
-	height:450px;
+	height:420px;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -967,33 +967,105 @@ footer{
 	margin-top:20px;
 }
 
+.divservicesec{
+	width:55%;
+	margin-top:20px;
+	height: fit-content;
+}
+
+.divserviceimg{
+	width:45%;
+	margin-top:20px;
+	height: fit-content;
+	height:515px;
+}
+
+.divserviceimg img{
+	width:75%;
+	margin-top:40px;
+	margin-left:10%;
+}
+
+.divservicesec h3{
+	font-family:'coneria';
+	color:#000000;
+	font-size:3.6vw;
+	text-align:justify;
+	position:relative;
+	top:-50px;
+	left:70px;
+	width:85%;
+}
+
+.divservicesec p{
+	font-family:'arimo';
+	color:#000000;
+	font-size:1.3vw;
+	text-align:left;
+	margin-left:10%;
+	margin-right:25%;
+	margin-top:-30px;
+	line-height:26px;
+	padding-bottom:30px;
+}
+
+.fondoservimg{
+	background-color:#dad1e0;
+	width:70%;
+	height:320px;
+	position:relative;
+	top:-270px;
+	left:120px;
+	z-index:-1;
+}
+.fondotitulo{
+	background-color: #dad1e0;
+	width:88%;
+	margin-left:5%;
+	height:5vw;
+	position:relative;
+	top:0;
+}
+
+.fondoproceso{
+    background-color: rgba(156,186,213,0.5);
+	width:85%;
+	padding:15px;
+	height:auto;
+	margin:auto;
+}
+
 .divcoachingsec h2{
 	font-family:'coneria';
 	color:#000000;
 	font-size:25px;
-	text-align:justify;
-	margin-left:20%;
-	margin-right:20%;
+	text-align:center;
 	margin-top:40px;
 	font-weight:bold;
+	width:100%;	
 }
 
-.divcoachingsec h3{
-	font-family:'coneria';
-	color:#000000;
-	font-size:55px;
-	text-align:justify;
-	margin-left:20%;
-	margin-top:120px;
+
+.botonesprogramar{
+	display:flex;
+	width:83%;
+	margin:auto;
 }
 
-.divcoachingsec h4{
-	font-family:'coneria';
-	color:#000000;
-	font-size:55px;
-	text-align:justify;
-	margin-left:10%;
-
+.programacion{
+	width:220px;
+	background-color:rgba(130,16,210,1);
+	font-family:'amaranth';
+	font-size:24px;
+	color:#ffffff;	
+	text-align:center;
+	border-radius:10px;
+	padding:5px;
+	cursor:pointer;
+	margin:10px;
+}
+.programar:hover{
+	background-color:#7f6f7a;
 }
 
 .citas{
@@ -1008,7 +1080,6 @@ footer{
 	border-radius:10px;
 	padding:7px;
 	cursor:pointer;
-	margin-bottom:100px;
 }
 
 .citas2{
@@ -1080,103 +1151,22 @@ footer{
 	margin-left:10%;
 }
 
-.fondotituloizq{
-	background-color:rgba(156,186,213,0.5);
-	width:48%;
-	height:730px;
-	margin-top:-790px;
-	margin-left:2%;
+#life-coaching-lnk{
+	padding:2.8vw;
 }
-
+#wellness-health-lnk{
+	padding:2.8vw;
+}
+#sport-coaching-lnk{
+	padding:2.8vw;
+}
 .fondoimgder{
 	background-color:rgba(156,186,213,0.5);
 	width:30%;
 	height:450px;
 	margin-top:-580px;;
-	margin-left:60%;
+	margin-left:20%;
 	margin-bottom:200px;
-}
-
-.fondotituloder{
-	background-color:#dad1e0;
-	width:48%;
-	height:70px;
-	margin-top:-730px;
-	margin-left:47%;
-}
-
-.fondoimgizq{
-	background-color:#dad1e0;
-	width:30%;
-	height:450px;
-	margin-top:90px;
-	margin-left:2%;
-	margin-bottom:100px;
-}
-
-.fondotituloizq2{
-	background-color:#dad1e0;
-	width:48%;
-	height:70px;
-	margin-top:-785px;
-	margin-left:2%;
-}
-
-.fondoimgder2{
-	background-color:#dad1e0;
-	width:30%;
-	height:450px;
-	margin-top:90px;;
-	margin-left:60%;
-	margin-bottom:100px;
-}
-
-.fondotituloder2{
-	background-color:#dad1e0;
-	width:48%;
-	height:70px;
-	margin-top:-710px;
-	margin-left:47%;
-}
-
-.fondoimgizq2{
-	background-color:#dad1e0;
-	width:30%;
-	height:450px;
-	margin-top:90px;
-	margin-left:2%;
-	margin-bottom:100px;
-}
-
-.divcoaching2{
-	width:50%;
-	margin-top:20px;
-}
-
-.divcoaching2 h3{
-	font-family:'coneria';
-	color:#000000;
-	font-size:55px;
-	text-align:justify;
-	margin-top:0px;
-}
-
-.divcoaching2 p{
-	font-family:'arimo';
-	color:#000000;
-	font-size:20px;
-	text-align:justify;
-	margin-right:25%;
-	margin-left:10%;
-	margin-top:50px;
-	line-height:35px;
-	padding-bottom:30px;
-}
-
-.divcoaching2 img{
-	width:65%;
-	margin-top:40px;
-	margin-left:10%;
 }
 
 .progcita{
@@ -1230,6 +1220,10 @@ footer{
 .blanco{
 	width:100%;
 	height:400px;
+}
+.blanco2{
+	width:100%;
+	height:50px;
 }
 /*Fin TransformArte*/
 
