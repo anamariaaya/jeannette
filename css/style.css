@@ -373,7 +373,7 @@ footer{
 	width:50%;
 	display:block;
 	margin-top:100px;
-	margin-left:25%;
+	margin-left:5%;
 }
 
 .footerredes a{
@@ -798,6 +798,10 @@ footer{
   to {opacity: 1}
 }
 
+
+/*Pausa Video*/
+
+
 /*Fin Prueba Slideshow Video*/
 
 /*Fin Slideshow*/
@@ -1119,6 +1123,10 @@ footer{
 	background-color:#7f6f7a;
 }
 .citas3:hover{
+	background-color:#7f6f7a;
+}
+
+.citas4:hover{
 	background-color:#7f6f7a;
 }
 
@@ -1504,11 +1512,24 @@ footer{
 .form{
 	width:500px;
 	height:auto;
-	margin-top:200px;
+	margin-top:70px;
 	margin-left:auto;
 	margin-right:auto;
 }
 
+.citas4{
+	width:250px;
+	background-color:rgba(130,16,210,1);
+	font-family:'amaranth';
+	font-size:25px;
+	color:#ffffff;
+	margin-left:20%;
+	text-align:center;
+	border-radius:10px;
+	padding:7px;
+	cursor:pointer;
+	margin-bottom:50px;
+}
 
 /*Formularios Vacantes y Solicitud*/
 .input{
@@ -1597,6 +1618,7 @@ input[type=checkbox]{
 	cursor:pointer;
 	margin-top:20px;
 }
+
 
 /*Fin Contacto*/
 /*Blog*/

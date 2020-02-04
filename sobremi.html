@@ -196,15 +196,15 @@ Tomé a lo largo de mi carrera para desarrollarme <strong>varias formaciones,</s
 
   <!-- Full-width images with number and caption text -->
 	<div class="mySlides2 fade2">
-    	<video muted class="video" src="videos/video eliana rincon final 01.mp4" controls="controls">
+    	<video id="myvideotag" muted class="video" src="videos/video eliana rincon final 01.mp4" controls="controls">
   	</div>
 
   	<div class="mySlides2 fade2">
-    	<video muted class="video" src="videos/VIDEO ROSITA 02.mp4" controls="controls">
+    	<video id="myvideotag1" muted class="video" src="videos/VIDEO ROSITA 02.mp4" controls="controls">
   	</div>
 
   	<div class="mySlides2 fade2">
-    	<video muted class="video" src="videos/VIDEO YOLANDA 03.mp4" controls="controls">
+    	<video id="myvideotag2" muted class="video" src="videos/VIDEO YOLANDA 03.mp4" controls="controls">
   	</div>
   
 
@@ -370,8 +370,10 @@ function showSlides2(n) {
   }
   slides2[slideIndex2-1].style.display = "block";
   dots2[slideIndex2-1].className += " active2";
+  document.getElementById('myvideotag').pause();
+  document.getElementById('myvideotag1').pause();
+  document.getElementById('myvideotag2').pause();
 }
-
 
 </script>
 
