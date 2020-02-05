@@ -340,6 +340,11 @@
 	width:220px;
 	font-size:23px;
 	}
+	.citas4{
+	width:220px;
+	font-size:23px;
+	margin-left:22%;
+	}
 }
 
 @media (max-width:1230px){
@@ -708,6 +713,11 @@
 	.citas3{
 	width:180px;
 	font-size:18px;
+	}
+	.citas4{
+	width:220px;
+	font-size:23px;
+	margin-left:22%;
 	}
 }
 
