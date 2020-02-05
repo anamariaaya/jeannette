@@ -364,9 +364,6 @@
 	font-size:25px;
 	margin-top:50px;
 	}
-	.fondoimgder{
-		background-color:blue;
-	}
 }
 
 @media (max-width:990px){
@@ -378,9 +375,10 @@
 	font-size:25px;
 	margin-top:50px !important;
 	}
-
 	.fondoimgder{
-		background-color:red;
+		height:300px;
+		top:-38%;
+		left: 20%;
 	}
 }
 
@@ -417,9 +415,10 @@
 
 @media(max-width:894px){
 	.fondoimgder{
-		left: 20%;
-		height: 300px;
-		top:-38%;
+		width:60%;
+		height: 350px;
+		top: -310px;
+		left: 26%;
 	}
 	.divcoaching{
 	width:100%;
@@ -506,7 +505,7 @@
 	height:370px;
 	}
 	.inferior{
-		top:420px;
+		top:480px;
 	}
 }
 
@@ -554,34 +553,28 @@
 }
 
 @media (max-width:730px){
-	.fondoimgder{
-	width:62%;
-	height:320px;
-	margin-left:25%;
-	top: 100px;
-	}
+
 	.inferior{
-		top:380px;
+		top:390px;
 	}
 }
 
 @media (max-width:700px){
+	.fondoimgder{
+		height:300px;
+		width:58%;
+		top:-260px;
+		left:28%;
+	}
 	.mainquotetrans h3{
 	margin-top:420px;
 	font-size:18px;
 	}
-	.quotetrans2 h3{
-	font-size:18px;
+	.quotetrans2 h3 {
+    	font-size: 20px;
 	}
 	.inferior{
-		top:360px;
-	}
-}
-
-@media (max-width:660px){
-	.fondoimgder{
-		height:300px;
-		top:120px;
+		top:380px;
 	}
 }
 
@@ -621,8 +614,9 @@
 
 @media (max-width:595px){
 	.fondoimgder{
-		height:260px;
-		top:150px;
+		height: 260px;
+	    width: 58%;
+    	top: -230px;
 	}
 	.superior{
 		top:-600px;
@@ -667,6 +661,10 @@
 	.inferior{
 		top:300px;
 	}
+	.fondoimgder{
+		height:250px;
+		top:-220px;
+	}
 }
 
 
@@ -678,9 +676,8 @@
 
 @media (max-width:445px){
 	.fondoimgder{
-	width:65%;
-	height:230px;
-	margin-left:28%;
+		height:220px;
+		top:-190px;
 	}
 	.citas{
 	width:180px;
@@ -751,12 +748,6 @@
 	.divcoachingsec p{
 	font-size:3.2vw;
 	}
-	.fondoimgder{
-	width:65%;
-	height:200px;
-	margin-left:28%;
-	top:210px;
-	}
 	.superior{
 		top:-750px;
 	}
@@ -771,7 +762,7 @@
 	font-size:14px;
 	}
 	.quotetrans2 h3{
-	font-size:14px;
+	font-size:18px;
 	}
 	.botonestranssec{
 	margin-top:25px;
@@ -790,6 +781,11 @@
 	}
 	.botonestranssec img{
 	width:190px;
+	}
+	.fondoimgder{
+		height:190px;
+		top:-165px;
+		left:26%;
 	}
 }
 
@@ -826,10 +822,9 @@
 	font-size:4.3vw;
 	}
 	.fondoimgder{
-		width:68%;
-	height:170px;
-	margin-left:28%;
-	top:230px;
+		height: 165px;
+  		top: -145px;
+		left: 27%;
 	}
 	.superior{
 		top:-700px;
