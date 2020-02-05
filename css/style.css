@@ -969,6 +969,7 @@ footer{
 .divcoachingsec{
 	width:50%;
 	margin-top:20px;
+	height:690px;
 }
 
 .divservicesec{
@@ -1292,11 +1293,51 @@ footer{
 	padding-bottom:50px;
 }
 
-.desarrolloprin{
+/*Nuevo Codigo*/
+
+
+.titdesarrollo{
+	width:100%;
+}
+
+.fondodesarrollarte{
+	width:50%;
+	height:80px;
+	background-color:#e4e4e4;
+	position:relative;
+	top:2%;
+	left:4%;
+	z-index:-2;
+}
+
+.titdesarrollo h2{
+	font-family:'coneria';
+	font-size:50px;
+	position:relative;
+	z-index:2;
+	top:-50px;
+	left:8%;
+	width:50%;
+}
+
+.imgdesarrolloizq{
+	width:100%;
+}
+
+.imgdesarrolloizq img{
+	width:40%;
+	margin-left:15%;
+}
+
+.botoninfodesarrollo{
+	width:100%;
+}
+
+/*.desarrolloprin{
 	margin-bottom:100px;
 	width:100%;
 	display:inline-flex;
-}
+}*/
 
 /*.titulosdesarrollo{
 	width:80%;
@@ -1403,18 +1444,43 @@ footer{
   font-size:30px; 
 }
 
+.accordion1 {
+  background-color: rgba(130,16,210,1);
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 30%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  height:120px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:'arimo';
+  font-weight:bold;
+  display:block;
+  border-radius:10px;
+  font-size:30px; 
+  position:relative;
+  top:-50px;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: #7f6f7a;
 }
 
+.active, .accordion1:hover {
+  background-color: #7f6f7a;
+}
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 25px 18px;
   background-color: #dad1e0;
   display: none;
   overflow: hidden;
-  width:76%;
+  width:30%;
   color:#000000;
   border:2px solid black;
   border-radius:10px;
@@ -1423,6 +1489,8 @@ footer{
   font-size:25px;
   font-family:'amaranth';
   font-weight:bold;
+  position:relative;
+  top:-50px;
 }
 
 .panel ul{
@@ -1438,7 +1506,7 @@ footer{
 	font-size:35px;
 }
 
-.ajusteinfo{
+/*.ajusteinfo{
 	width:100%;
 }
 
@@ -1452,7 +1520,7 @@ footer{
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
-}
+}*/
 
 /*Fin DesarrollArte*/
 

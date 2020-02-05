@@ -68,6 +68,35 @@
     <h3>Creando consciencia para el desarrollo de tu máximo potencial</h3>
 </div>
 
+
+<div class="titdesarrollo">
+	<div class="fondodesarrollarte"></div>
+    <h2>Empoderamiento Interior</h2>
+</div>
+<div class="imgdesarrolloizq">
+	<img src="img/desarrollarte/s1.png" alt="Empoderamiento Interior">
+</div>
+<div class="botoninfodesarrollo">
+	<button class="accordion1">Más información <br>sobre el taller</button>
+			<div class="panel">
+  			<p> Es un viaje maravilloso hacia tu interior en el que generaras conciencia acerca de la manera como nos relacionamos con nosotros mismos y nuestro entorno, la fuentes de las que nos nutrimos permanentemente, las creencias que tenemos hacia la vida y  como la manifestamos a través de nuestro comportamientos….influyen sobre nuestra salud y bienestar.<br><br>
+
+Este taller es para ti si…
+<ul>
+<li>Deseas hacer cambios en tu vida en beneficio de tu salud y bienestar.</li>
+<li>Has iniciado planes o programas para mejorar tu calidad de vida (dietas, gimnasio,tratamientos médicos, etc..) y no has tenido los resultados esperados.</li>
+<li>Te encantaría vivir plena y satisfactoriamente.</li>
+</ul>
+<br><br>
+
+Te entregaré herramientas que te ayudarán a autogestionarte para conseguir los resultados que deseas alrededor de la salud y el bienestar.<br><br>
+
+¡Muy pronto!</p>
+<a href="contacto.html"><div class="citas2">Separa tu cupo</div></a>
+			</div>
+</div>
+
+<!--
 <div class="desarrolloprin">
 
 	<div id="empoderamiento" class="ajusteinfo">
@@ -234,7 +263,8 @@ En este taller obtendras los insumos para continuar con una vida llena de signif
 </div>
 </div>-->
 
-<div class="progcita">
+
+<!--<div class="progcita">
 	<div class="progcita2"></div>
 </div>
 <div class="progcita3">
@@ -266,7 +296,7 @@ En este taller obtendras los insumos para continuar con una vida llena de signif
     	<p>Designed and Developed by <a href="https://www.tamarindolab.com" target="_blank">Tamarindo Lab</a>&nbsp ©2019</p>
     
 </div>
-
+-->
 <!--Script Menú responsive-->
 <script>
 function myFunction(){
@@ -282,6 +312,29 @@ function myFunction(){
 <script>
 
 var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+</script>
+
+<script>
+
+var acc = document.getElementsByClassName("accordion1");
 var i;
 
 for (i = 0; i < acc.length; i++) {
