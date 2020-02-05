@@ -290,22 +290,8 @@
 	margin-top:80px;
 	margin-left:10%;
 	}
-	.fondoimgder{
-	width:75%;
-	height:420px;
-	position:relative;
-	top:20%;
-	left:0%;
-	z-index:-1;
-	}
 }
 
-@media (max-width:1370px){
-	.fondoimgder{
-	margin-top:-620px;
-	margin-bottom:250px;
-	}
-}
 
 @media (max-width:1351px){
 	.divcoachingsec h2{
@@ -324,10 +310,6 @@
 	margin-left:5%;
 	margin-top:8px;
 	}
-	.fondoimgder{
-	margin-top:-480px;
-	margin-bottom:100px;
-	}
 	.citas{
 	width:220px;
 	font-size:23px;
@@ -344,17 +326,12 @@
 
 @media (max-width:1230px){
 	.fondoimgder{
-	margin-top:-520px;
-	margin-bottom:170px;
+		width: 75%;
+		left: 22%;
 	}
 }
 
 @media (max-width:1205px){
-	.fondoimgder{
-	height:330px;
-	margin-top:-400px;
-	margin-bottom:60px;
-	}
 	.divcoachingsec p{
 	font-size:15px;;
 	margin-left:5%;
@@ -382,6 +359,9 @@
 	font-size:25px;
 	margin-top:50px;
 	}
+	.fondoimgder{
+		background-color:blue;
+	}
 }
 
 @media (max-width:990px){
@@ -393,6 +373,10 @@
 	font-size:25px;
 	margin-top:50px !important;
 	}
+
+	.fondoimgder{
+		background-color:red;
+	}
 }
 
 @media (max-width:984px){
@@ -402,13 +386,9 @@
 	.divcoachingsec p span{
 	font-size:21px;
 	}
-	.fondoimgder{
-	height:280px;
-	margin-top:-380px;;
-	}
 }
 
-@media (max-width:970px){
+@media (max-width:970px){	
 	.botonestranssec{
 	margin-top:60px;
 	}
@@ -427,9 +407,15 @@
 	.botonestranssec img{
 	width:280px;
 	}
+	
 }
 
-@media (max-width:894px){
+@media(max-width:894px){
+	.fondoimgder{
+		left: 20%;
+		height: 300px;
+		top:-38%;
+	}
 	.divcoaching{
 	width:100%;
 	display:block;
@@ -466,12 +452,6 @@
 	.superior{
 		position:relative;
 		top:-650px;
-	}
-	.fondoimgder{
-	width:62%;
-	height:400px;
-	margin-left:25%;
-	top:50px;
 	}
 }
 
