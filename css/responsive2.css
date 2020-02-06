@@ -795,7 +795,7 @@
 	height:270px;
 	}	
 	.superior {
-    	top: -570px;
+    	top: -615px;
 	}
 	.inferior{
 		top:350px;		
@@ -839,6 +839,9 @@
 @media (max-width:475px){
 	.inferior{
 		top:300px;
+	}
+	.superior{
+		top:-580px;
 	}
 	.fondoimgder{
 		height:250px;

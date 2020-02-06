@@ -1,6 +1,6 @@
 <?php
 $coments = $yourservice; 
-$toEmail = "jeanmarmentor@gmail.com";
+$toEmail = "programate@21dias.coach";
 $mensaje = "Gracias por tu mensaje. Pronto te contactaré.";
 $ruta = "contacto.html";
 $mailHeaders = "From: " . $_POST["name"]. "<". $_POST["phone"] . "<". $_POST["email"] .">\r\n";
