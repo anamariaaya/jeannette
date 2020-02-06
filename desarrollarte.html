@@ -419,6 +419,11 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = "block";
     }
   });
+  $(document).click(function(e) {
+	if (!$(e.target).is('.panel')) {
+    	$('.collapse').collapse('hide');	    
+    }
+});
 }
 
 function myFunction() {
