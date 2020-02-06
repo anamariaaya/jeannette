@@ -56,6 +56,14 @@ a{
     top: 0px;
 }
 
+.topnav2{
+	display:block;
+	width:100%;
+    z-index: 12;
+    position: fixed;
+    top: 0px;
+}
+
 .dias{
 	width:20%;
 	margin-right:0px;
@@ -1172,6 +1180,18 @@ footer{
 }
 #sport-coaching-lnk{
 	padding:2.8vw;
+}
+#empoderamiento{
+	padding:1vw;
+}
+#mihijo{
+	padding:1.4vw;
+}
+#busqueda{
+	padding:1.4vw;
+}
+#desafiando{
+	padding:1.4vw;
 }
 .fondoimgder{
 	background-color:rgba(156,186,213,0.5);

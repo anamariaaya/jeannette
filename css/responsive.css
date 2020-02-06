@@ -445,7 +445,7 @@
 		width:230px;
 	}
 	footer{
-		display:block;
+		display:block !important;
 		height:auto;
 	}
 	.footerinfo{
