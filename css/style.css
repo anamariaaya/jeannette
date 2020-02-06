@@ -1131,6 +1131,10 @@ footer{
 	background-color:#7f6f7a;
 }
 
+.citasdesarrollo:hover{
+	background-color:#7f6f7a;
+}
+
 .divcoachingsec p{
 	font-family:'arimo';
 	color:#000000;
@@ -1256,7 +1260,7 @@ footer{
 	margin-right:auto;
 	height:auto;
 	margin-top:700px;
-	margin-bottom:150px;
+	margin-bottom:80px;
 }
 
 .programasdesarrollo h2{
@@ -1310,6 +1314,7 @@ footer{
 	z-index:-2;
 }
 
+
 .titdesarrollo h2{
 	font-family:'coneria';
 	font-size:50px;
@@ -1324,9 +1329,18 @@ footer{
 	width:100%;
 }
 
+.imgdesarrolloder{
+	width:100%;
+}
+
 .imgdesarrolloizq img{
 	width:40%;
 	margin-left:15%;
+}
+
+.imgdesarrolloder img{
+	width:40%;
+	margin-left:45%;
 }
 
 .botoninfodesarrollo{
@@ -1424,32 +1438,13 @@ footer{
 /*Dropdown*/
 
 /* Style the buttons that are used to open and close the accordion panel */
+
 .accordion {
   background-color: rgba(130,16,210,1);
   color: #ffffff;
   cursor: pointer;
   padding: 18px;
-  width: 80%;
-  text-align: center;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  height:90px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family:'coneria';
-  font-weight:bold;
-  display:block;
-  border-radius:10px;
-  font-size:30px; 
-}
-
-.accordion1 {
-  background-color: rgba(130,16,210,1);
-  color: #ffffff;
-  cursor: pointer;
-  padding: 18px;
-  width: 30%;
+  width: 35%;
   text-align: center;
   border: none;
   outline: none;
@@ -1466,24 +1461,20 @@ footer{
   top:-50px;
 }
 
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: #7f6f7a;
 }
 
-.active, .accordion1:hover {
-  background-color: #7f6f7a;
-}
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 25px 18px;
   background-color: #dad1e0;
   display: none;
   overflow: hidden;
-  width:30%;
+  width:33%;
   color:#000000;
-  border:2px solid black;
-  border-radius:10px;
   margin-left:auto;
   margin-right:auto;
   font-size:25px;
@@ -1492,6 +1483,7 @@ footer{
   position:relative;
   top:-50px;
 }
+
 
 .panel ul{
 	margin-left:5%;
@@ -1504,6 +1496,19 @@ footer{
 .panel p span{
 	font-family:'coneria';
 	font-size:35px;
+}
+
+.citasdesarrollo	{
+	width:250px;
+	background-color:rgba(130,16,210,1);
+	font-family:'amaranth';
+	font-size:25px;
+	color:#ffffff;
+	float:right;
+	text-align:center;
+	border-radius:10px;
+	padding:7px;
+	cursor:pointer;
 }
 
 /*.ajusteinfo{
