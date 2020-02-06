@@ -1285,17 +1285,6 @@ footer{
 	margin-left:-20%;
 }
 
-.programasdesarrollo p{
-	width:140%;
-	margin-left:-20%;
-	margin-right:auto;
-	text-align:center;
-	font-size:35px;
-	font-family:'amaranth';
-	color:#7b7478;
-	padding-top:30px;
-	padding-bottom:50px;
-}
 
 /*Nuevo Codigo*/
 
@@ -1380,8 +1369,7 @@ footer{
   margin-right:auto;
   font-family:'arimo';
   font-weight:bold;
-  border-top-right-radius:10px;
-  border-top-left-radius:10px;
+  border-radius:10px;
   font-size:30px; 
   position:relative;
   text-decoration:none;
@@ -1405,6 +1393,7 @@ footer{
   font-family:'amaranth';
   font-weight:bold;
   position:relative;
+  border-radius:10px;
 }
 
 
