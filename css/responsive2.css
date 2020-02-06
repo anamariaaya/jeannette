@@ -327,6 +327,10 @@
 	font-size:23px;
 	margin-left:22%;
 	}
+	.citasdesarrollo{
+	width:220px;
+	font-size:23px;
+	}
 }
 
 @media (max-width:1230px){
@@ -910,6 +914,10 @@
 	font-size:23px;
 	margin-left:22%;
 	}
+	.citasdesarrollo{
+	width:180px;
+	font-size:18px;
+	}
 	.divserviceimg {
 		height: 220px;
 	}
@@ -1025,6 +1033,10 @@
 	font-size:15px;
 	}
 	.citas3{
+	width:150px;
+	font-size:15px;
+	}
+	.citasdesarrollo{
 	width:150px;
 	font-size:15px;
 	}
