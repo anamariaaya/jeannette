@@ -701,8 +701,8 @@
 		position: relative;
 		top: 0px;
 		z-index: -1;
-		margin-top:-1650px;
-		height:1650px;
+		margin-top:-1350px;
+		height:1450px;
 	}
 	.bioback h3{
 		font-size:40px;
@@ -710,14 +710,14 @@
 	}
 	.biografiaprin{
 		padding-bottom:80px;
-		margin-top:180px;
+		margin-top:250px;
 	}
 	.biografiaimg img {
 		width: 85%;
-		margin-top: 150px;
+		margin-top: 0px;
 	}
 	.biografiatxt p{
-		padding-top:25%;
+		padding-top:0%;
 		font-size:1.3vw;
 	}
 	.titulotestimonios h3{
@@ -806,17 +806,6 @@
 		line-height:27px;
 		margin-top:45px;
 	}
-	.biografiaimg img{
-		margin-top:80px;
-	}
-	.biografiatxt p{
-		padding-top:15%;
-		line-height:27px;
-	}
-	.bioback{
-		margin-top:-1300px;
-		height:1400px;
-	}
 	.bioback h3{
 		font-size:38px;
 	}
@@ -902,19 +891,15 @@
 	.bioback h3{
 		font-size:36px;
 	}
-	.biografiaimg img {
-		margin-top: 50px;
-	}
 	.biografiatxt p {
-		padding-top: 10%;
 		line-height: 23px;
 		font-size: 13.5px;
 		margin-right:10%;
 		margin-left:10%;
 	}
 	.bioback{
-		margin-top:-1020px;
-		height:1100px;
+		margin-top:-970px;
+		height:1050px;
 	}
 	.testimoniosprin{
 		padding-bottom:30px;
@@ -963,10 +948,10 @@
 
 @media(max-width:950px){
 	.biografiaprin{
-		margin-top:150px;
+		margin-top:220px;
 	}
 	.bioback{
-		margin-top:-1050px;
+		margin-top:-1040px;
 	}.titulointereses {
 		margin-top: 7px;
 	}
@@ -1025,6 +1010,9 @@
 	.bioback h3 {
 		font-size: 34px;
 	}
+	.biografiaprin{
+		margin-top:250px;
+	}
 	.titulotestimonios h3 {
 		font-size: 34px;
 	}
@@ -1063,33 +1051,22 @@
 	.interesesprin{
 	padding-bottom:30px;
 	}
+	.bioback{
+		height:1150px;
+	}
 	
-}
-
-@media(max-width:852px){
-	.bioback{
-		margin-top:-1100px;
-	}
-}
-
-@media(max-width:847px){
-	.bioback{
-		margin-top:-1100px;
-	}
 }
 @media(max-width:840px){
 	.bioback{
-		margin-top:-1150px;
+		margin-top:-1100px;
 	}
-}
-@media(max-width:827px){
-	.bioback{
-		margin-top:-1150px;
+	.biografiaprin{
+		margin-top:200px;
 	}
 }
 @media(max-width:801px){
 	.bioback{
-		margin-top:-1200px;
+		margin-top:-1150px;
 	}
 	.biografiaprin {
 		padding-bottom:110px;
@@ -1097,7 +1074,10 @@
 }
 @media(max-width:794px){
 	.bioback{
-		margin-top:-1190px;
+		margin-top:-1180px;
+	}
+	.biografiaprin{
+		margin-top:230px;
 	}
 }
 @media(max-width:780px){
@@ -1157,7 +1137,7 @@
 		font-size:13px;
 	}
 	.bioback{
-		margin-top:-1060px;
+		margin-top:-1100px;
 	}
 	.bioback h3{
 		font-size:30px;
@@ -1191,19 +1171,22 @@
 		height: 250px;
 		margin-top: 3%;
 	}
+	.biografiaprin{
+		margin-top:180px;
+	}
 }
 
 @media(max-width:721px){
+	.biografiaprin{
+		margin-top:150px;
+		padding-bottom:70px;
+	}
 	.bioback{
-		margin-top:-1120px;
+		margin-top:-1140px;
+		height:1180px;
 	}
 }
 
-@media(max-width:720px){
-	.bioback{
-		margin-top:-1120px;
-	}
-}
 @media(max-width:700px){
 	.header2{
 		height:400px;
@@ -1267,7 +1250,7 @@
 		margin-right:10%;
 	}
 	.biografiaprin{
-		margin-top:150px;
+		margin-top:180px;
 	}
 	.biografiasec{
 		display:block;
@@ -1280,8 +1263,8 @@
 		width: 100%;
 	}
 	.bioback{
-		margin-top:-1300px;
-		height:1350px;
+		margin-top:-1330px;
+		height:1400px;
 	}
 	.bioback h3{
 		font-size:28px;
@@ -1365,6 +1348,9 @@
 		top: -1750px;
 		height:800px;
 	}
+	.bioback{
+		margin-top:-1285px;
+	}
 }
 
 @media(max-width:610px){
@@ -1429,6 +1415,9 @@
 	.interesesprin{
 		height:1720px;
 	}
+	.bioback{
+		height:1350px;
+	}
 }
 @media(max-width:530px){
 	.titulosobre h1 {
@@ -1449,6 +1438,12 @@
 @media(max-width:500px){
 	.interesesprin{
 		height:1550px;
+	}
+	.biografiaprin{
+		margin-top:180px;
+	}
+	.bioback{
+		margin-top:-1320px;
 	}
 }
 @media(max-width:485px){
@@ -1626,6 +1621,9 @@
 	.interesesprin{
 		height:1350px;
 	}
+	.bioback{
+		margin-top:-1180px;
+	}
 }
 
 @media(max-width:403px){
@@ -1707,7 +1705,7 @@
 }
 @media(max-width:362px){
 	.bioback{
-		margin-top:-1210px;
+		margin-top:-1240px;
 	}
 }
 @media(max-width:350px){
@@ -1736,6 +1734,12 @@
 @media (max-width:320px){
 .interesesprin{
 		padding-bottom:0px;
+	}
+}
+
+@media (max-width:315px){
+	.bioback{
+		margin-top:-1290px;
 	}
 }
 
