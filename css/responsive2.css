@@ -209,7 +209,7 @@
 
 @media (max-width:400px){
 	.contactosec img{
-	width:75%;
+	width:65%;
 	height:350px;
 	}
 	.form{
@@ -223,7 +223,7 @@
 
 @media (max-width:380px){
 	.contactosec img{
-	width:85%;
+	width:70%;
 	}
 	.form{
 	width:95%;
@@ -367,6 +367,11 @@
 	.quotetrans2 h3{
 	font-size:25px;
 	margin-top:50px;
+	}
+	.citas4{
+	width:210px;
+	font-size:21px;
+	margin-left:20%;
 	}
 }
 
@@ -656,6 +661,11 @@
 	.cambiosup{
 		top:-360px;
 	}
+	.citas4{
+	width:200px;
+	font-size:21px;
+	margin-left:19%;
+	}
 }
 
 @media (max-width:700px){
@@ -910,9 +920,9 @@
 	font-size:18px;
 	}
 	.citas4{
-	width:220px;
-	font-size:23px;
-	margin-left:22%;
+	width:180px;
+	font-size:20px;
+	margin-left:19%;
 	}
 	.citasdesarrollo{
 	width:180px;
@@ -1039,6 +1049,9 @@
 	.citasdesarrollo{
 	width:150px;
 	font-size:15px;
+	}
+		.citas4{
+	margin-left:22%;
 	}
 }
 
