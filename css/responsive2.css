@@ -366,6 +366,24 @@
 	}
 }
 
+@media(max-width:1100px){
+	.divcoachingsec{
+		height:670px;
+	}
+	.fondoservimg{
+		height:50%;
+		top:-210px;
+	}
+}
+
+@media(max-width:1009px){
+	.programacion{
+		font-size:18px;
+		width:190px;
+		padding:5px 0px;
+	}
+}
+
 @media (max-width:990px){
 	.mainquotetrans h3{
 	margin-top:550px;
@@ -383,8 +401,15 @@
 }
 
 @media (max-width:984px){
+	.divcoachingsec{
+		height:650px;
+	}
+	.divcoachingsec h2{
+		margin-top: 25px;
+	    margin-bottom: 25px;
+	}
 	.divcoachingsec p{
-	line-height:25px;
+	line-height:30px;
 	}
 	.divcoachingsec p span{
 	font-size:21px;
@@ -410,6 +435,18 @@
 	.botonestranssec img{
 	width:280px;
 	}
+	.divservicesec p {
+		font-size:1.5vw;
+	}
+	#life-coaching-lnk{
+		padding:3.2vw;
+	}
+	#wellness-health-lnk{
+		padding:3.2vw;
+	}
+	#sport-coaching-lnk{
+		padding:3.2vw;
+	}
 	
 }
 
@@ -427,20 +464,50 @@
 	.divcoachingsec{
 	width:100%;
 	}
+	.divserviceimg{
+		width:100%;
+		height:400px;
+	}
+	.coachgral{
+		margin-top:-220px;
+	}
+	.fondoservimg{
+		height:70%;
+		width:50%;
+		top:-225px;
+		left:260px;
+	}
+	.divserviceimg img {
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+	}
+	.divservicesec{
+		width:100%;
+	}
+	.fondotitulo{
+		width:50%;
+	}
 	.divcoachingsec h2{
-	font-size:28px;
+		font-size:25px;
+	    margin-top: 25px;
+    	margin-bottom: 25px;
+	    padding: 0px 20px;
 	}
 	.divcoachingsec p{
-	font-size:18px;
+	font-size:17px;
 	text-align:left;
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:15px;
-	line-height:29px;
+	line-height:27px;
 	padding-bottom:50px;
 	}
 	.divcoachingsec p span{
-	font-size:26px;
+	font-size:24px;
+	line-height:50px;
 	}
 	.divcoachingsec img{
 	width:60%;
@@ -456,6 +523,18 @@
 	.superior{
 		position:relative;
 		top:-650px;
+	}
+	.divservicesec p {
+		font-size: 1.8vw;
+		text-align:justify;
+	}
+	.cambioinf{
+		position:relative;
+		top:430px;
+	}
+	.cambiosup{
+		position:relative;
+		top:-420px;
 	}
 }
 
@@ -507,9 +586,22 @@
 	.inferior{
 		top:480px;
 	}
+	.fondoservimg {
+		height: 70%;
+		width: 50%;
+		top: -60%;
+		left: 30%;
+	}
+	.divserviceimg img {
+		width: 50%;
+	}
+	.cambioinf{
+		top:450px;
+	}
+	.cambiosup{
+		top:-380px;
+	}
 }
-
-
 @media (max-width:780px){
 	.mainquotetrans h3{
 	margin-top:470px;
@@ -555,7 +647,10 @@
 @media (max-width:730px){
 
 	.inferior{
-		top:390px;
+		top:470px;
+	}
+	.cambiosup{
+		top:-360px;
 	}
 }
 
@@ -574,13 +669,62 @@
     	font-size: 20px;
 	}
 	.inferior{
-		top:380px;
+		top:420px;
+	}
+	.divserviceimg{
+		margin-top:0px;
+		height:330px;
+	}
+	.divcoachingsec {
+    	height: 620px;
+	}
+	.divservicesec h3{
+		font-size:4.2vw;
+		top:-27px;
+	}
+	.divservicesec p{
+		font-size:2.2vw;
+		margin-top:-20px;
+		margin-right:15%;
+	}
+	.fondotitulo{
+		width:70%;
+	}
+	.cambioinf{
+		top:400px;
+	}
+	.cambiosup{
+		top:-390px;
 	}
 }
 
 @media (max-width:631px){
+	.divcoachingsec {
+		height: 570px;
+	}
+	.divcoachingsec h2{
+		margin-top:25px;
+	}
 	.inferior{
-		top:320px;
+		top:360px;
+	}
+	.superior{
+		top: -615px;
+	}
+	.divcoachingsec p span {
+		line-height:35px;
+	}
+	.divserviceimg{
+		height:320px;
+	}
+	.divserviceimg img{
+		margin-top:0px;
+	}
+	.cambioinf{
+		top:300px;
+	}
+	.cambiosup{
+		top:-387px;
 	}
 }
 
@@ -613,16 +757,22 @@
 }
 
 @media (max-width:595px){
+	.divcoachingsec{
+	height: 570px;
+	}	
 	.fondoimgder{
 		height: 260px;
 	    width: 58%;
     	top: -230px;
 	}
 	.superior{
-		top:-600px;
+		top:-630px;
 	}
 	.inferior{
-		top:350px;
+		top:300px;
+	}
+	.coachgral {
+		margin-top: -250px;
 	}
 }
 
@@ -638,13 +788,45 @@
 	}
 	.divcoachingsec h2{
 	font-size:3.6vw;
+	padding:0px;
 	}
 	.fondoimgder{
 	width:65%;
 	height:270px;
 	}	
-	.superior{
-		top:-710px;
+	.superior {
+    	top: -615px;
+	}
+	.inferior{
+		top:350px;		
+	}
+	.coachgral {
+		margin-top: -130px;
+	}
+	.divserviceimg {
+		height: 285px;
+	}
+	.divservicesec h3{
+		font-size:5vw;
+	}
+	.divservicesec p{
+		font-size:2.8vw;
+		padding-bottom:12px;
+	}
+	.botonesprogramar{
+		display:block;
+	}
+	.programacion{
+		margin:5px auto;
+	}
+	.divservicesec p{
+	    line-height: 22px;
+	}
+	.cambioinf{
+		top:270px;
+	}
+	.cambiosup{
+		top:-410px;
 	}
 }
 
@@ -655,15 +837,44 @@
 }
 
 @media (max-width:475px){
-	.superior{
-		top:-700px;
-	}
 	.inferior{
 		top:300px;
+	}
+	.superior{
+		top:-580px;
 	}
 	.fondoimgder{
 		height:250px;
 		top:-220px;
+	}
+	.divcoachingsec{
+		height:540px;
+	}
+	.divserviceimg {
+		height: 230px;
+	}
+	.divservicesec h3{
+		left:50px;
+	}
+	.fondotitulo{
+		width:75%;
+	}
+	.programacion {
+		font-size: 16px;
+		width: 150px;
+	}
+	.divcoachingsec p{
+		font-size:3vw;
+		line-height:20px;
+	}
+	.divcoachingsec h2 {
+    	font-size: 4.2vw;
+	}
+	.divcoachingsec p span {
+		line-height: 40px;
+	}
+	.cambioinf{
+		top:215px;
 	}
 }
 
@@ -671,6 +882,9 @@
 @media (max-width:452px){
 	.inferior{
 		top:280px;
+	}
+	.coachgral {
+		margin-top: -170px;
 	}
 }
 
@@ -696,14 +910,32 @@
 	font-size:23px;
 	margin-left:22%;
 	}
+	.divserviceimg {
+		height: 220px;
+	}
+	.divservicesec p{
+		line-height: 18px;
+	}
+	.cambiosup{
+		top:-350px;
+	}
 }
 
 @media (max-width:428px){
-	.superior{
-		top:-680px;
-	}
 	.inferior{
-		top:280px;
+		top:265px;
+	}
+	.divserviceimg {
+		height: 200px;
+	}
+	.divservicesec p {
+    	font-size: 3vw;
+	}
+	.divservicesec h3 {
+		font-size: 5.5vw;
+	}
+	.coachgral {
+		margin-top: -215px;
 	}
 }
 
@@ -730,11 +962,11 @@
 	.divcoachingsec h2{
 	font-size:4.5vw;
 	}
-	.superior{
-		top:-720px;
-	}
 	.inferior{
 		top:250px;
+	}
+	.cambioinf{
+		top:200px;
 	}
 }
 
@@ -747,12 +979,6 @@
 	}
 	.divcoachingsec p{
 	font-size:3.2vw;
-	}
-	.superior{
-		top:-750px;
-	}
-	.inferior{
-		top:250px;
 	}
 }
 
@@ -808,6 +1034,18 @@
 	.inferior{
 		top:210px;
 	}
+	.coachgral{
+		margin-top:-270px;
+	}
+	.divserviceimg{
+		height:175px;
+	}
+	.cambioinf{
+		top:170px;
+	}
+	.cambiosup{
+		top:-360px;
+	}
 }
 
 @media (max-width:343px){
@@ -820,17 +1058,37 @@
 	}
 	.divcoachingsec h2{
 	font-size:4.3vw;
+	margin-top:15px;
+	margin-bottom:15px;
 	}
 	.fondoimgder{
 		height: 165px;
   		top: -145px;
 		left: 27%;
 	}
-	.superior{
-		top:-700px;
-	}
 	.inferior{
 		top:200px;
+	}
+	.coachgral{
+		margin-top:-210px;
+	}
+	.divserviceimg {
+		height: 160px;
+	}
+	.divservicesec h3 {
+		font-size: 6vw;
+		left:25px;
+	}
+	.fondotitulo {
+		width: 80%;
+	}
+	.programacion {
+		font-size: 14px;
+		width: 140px;
+		padding: 4px 0px;
+	}
+	.cambioinf {
+		top: 150px;
 	}
 }
 
@@ -838,6 +1096,12 @@
 
 @media (max-width:315px){
 	.inferior{
-		top:170px;
+		top:180px;
+	}
+	.cambioinf{
+		top:140px;
+	}
+	.cambiosup{
+		top:-350px;
 	}
 }
