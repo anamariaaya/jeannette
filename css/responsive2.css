@@ -478,6 +478,18 @@
 	#sport-coaching-lnk{
 		padding:3.2vw;
 	}
+	#empoderamiento{
+	padding:3.2vw;
+	}
+	#mihijo{
+	padding:3.4vw;
+	}
+	#busqueda{
+	padding:3.4vw;
+	}
+	#desafiando{
+	padding:3.6vw;
+	}
 	
 }
 
@@ -731,6 +743,21 @@
 	}
 	.cambiosup{
 		top:-390px;
+	}
+}
+
+@media (max-width:660px){
+	#empoderamiento{
+	padding:4.8vw;
+	}
+	#mihijo{
+	padding:5.8vw;
+	}
+	#busqueda{
+	padding:5.6vw;
+	}
+	#desafiando{
+	padding:6vw;
 	}
 }
 
