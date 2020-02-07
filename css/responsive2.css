@@ -265,7 +265,19 @@
 }
 
 /*TransformArte*/
-
+@media (max-width:2000px){
+	.divcoachingsec{
+		height:800px;
+	}	
+}
+@media(min-width:1750px){
+	.fondoservimg {
+		width: 85%;
+		height: 500px;
+		top: -420px;
+		left: 95px;
+	}
+}
 @media (max-width:1750px){
 	.mainquotetrans h3{
 	margin-top:650px;
@@ -275,14 +287,20 @@
 	font-size:30px;
 	margin-top:50px;
 	}
+	.divcoachingsec{
+		height:900px;
+	}
 }
-
 @media (max-width:1666px){
 	.divcoachingsec p{
 	margin-left:12%;
 	margin-right:18%;
 	}
+	.divcoachingsec{
+		height:800px;
+	}
 }
+
 
 @media (max-width:1428px){
 	.divcoachingsec img{
@@ -290,6 +308,7 @@
 	margin-top:80px;
 	margin-left:10%;
 	}
+
 }
 
 
@@ -309,6 +328,9 @@
 	font-size:23px;
 	margin-left:5%;
 	margin-top:8px;
+	}
+	.divcoachingsec{
+		height:700px;
 	}
 	.citas{
 	width:220px;
