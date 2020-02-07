@@ -9,8 +9,7 @@
 
 	}
 	.dropdown2 {
-	padding-left:0px;
-
+	padding-left:25px;
 	}
 }
 @media (max-width:1052px){
@@ -37,6 +36,9 @@
 		float:right;
 		margin-right:5%;
 		margin-top:2.5%;
+	}
+	.dropdown2 {
+	padding-left:0px;
 	}
 }
 @media (max-width:1052px){
