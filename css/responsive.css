@@ -8,6 +8,9 @@
 	padding-left:25px;
 
 	}
+	.dropdown2 {
+	padding-left:25px;
+	}
 }
 @media (max-width:1052px){
 	.menu{
@@ -34,6 +37,7 @@
 		margin-right:5%;
 		margin-top:2.5%;
 	}
+
 }
 @media (max-width:1052px){
 	.menu.responsive{
@@ -63,11 +67,21 @@
 	.dropdown{
 		padding-left:0px;
 	}
+		.dropdown2 {
+	padding-left:0px;
+	}
 	.dropdown-content{
 		height:auto;
 		position:relative;
 	}
+	.dropdown2-content2{
+		height:auto;
+		position:relative;
+	}
 	.menu ul a .dropdown-content a {
+	  padding: 5px 12px !important;
+	}
+	.menu ul a .dropdown2-content2 a {
 	  padding: 5px 12px !important;
 	}
 	.logomenu {
