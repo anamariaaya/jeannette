@@ -482,13 +482,13 @@
 	padding:3.2vw;
 	}
 	#mihijo{
-	padding:3.4vw;
+	padding:3.2vw;
 	}
 	#busqueda{
-	padding:3.4vw;
+	padding:3.2vw;
 	}
 	#desafiando{
-	padding:3.6vw;
+	padding:3.2vw;
 	}
 	
 }
@@ -702,6 +702,24 @@
 	}
 }
 
+@media (max-width:720px){
+	#empoderamiento{
+	padding:7vw;
+	}
+	#mihijo{
+	padding:7vw;
+	}
+	#busqueda{
+	padding:7vw;
+	}
+	#desafiando{
+	padding:7vw;
+	}
+	.programasdesarrollo{
+		margin-bottom:-30px;
+	}
+}
+
 @media (max-width:700px){
 	.fondoimgder{
 		height:300px;
@@ -743,21 +761,6 @@
 	}
 	.cambiosup{
 		top:-390px;
-	}
-}
-
-@media (max-width:660px){
-	#empoderamiento{
-	padding:4.8vw;
-	}
-	#mihijo{
-	padding:5.8vw;
-	}
-	#busqueda{
-	padding:5.6vw;
-	}
-	#desafiando{
-	padding:6vw;
 	}
 }
 
@@ -939,6 +942,18 @@
 	.cambioinf{
 		top:215px;
 	}
+	#empoderamiento{
+		padding:7.5vw;
+	}
+	#mihijo{
+		padding:7.5vw;
+	}
+	#busqueda{
+		padding:7.5vw;
+	}
+	#desafiando{
+		padding:7.5vw;
+	}
 }
 
 
@@ -1034,6 +1049,18 @@
 	}
 	.cambioinf{
 		top:200px;
+	}
+	#empoderamiento{
+		padding:8vw;
+	}
+	#mihijo{
+		padding:8vw;
+	}
+	#busqueda{
+		padding:8vw;
+	}
+	#desafiando{
+		padding:8vw;
 	}
 }
 
