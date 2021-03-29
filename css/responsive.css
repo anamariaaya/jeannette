@@ -2502,3 +2502,75 @@
 	}
 }
 
+/*Términos y condiciones*/
+@media (max-width:1100px){
+	.terminos{
+		margin-top: 4rem;
+		padding:2rem 6rem;
+	}
+	.terminos--encabezado{
+		font-size: 1.6rem;
+		padding: 2rem;
+	}
+	.terminos--title{
+		font-size: 1.2rem;
+		padding: 1.2rem 0;
+	}
+	.terminos p{
+		padding: 0.8rem 0;
+	}
+	
+	.terminos ul{
+		padding-left: 1.5rem;
+	}
+	
+	.terminos ul li{
+		padding-top:0.8rem;
+	}
+}
+
+@media (max-width:765px){
+	.terminos{
+		margin-top: 4rem;
+		padding:2rem 2.5rem;
+	}
+	.terminos--encabezado{
+		font-size: 1.3rem;
+		padding: 1rem;
+	}
+	.terminos--title{
+		font-size: 1.2rem;
+		padding: 1rem 0;
+	}
+	.terminos p{
+		font-size: 0.9rem;
+	}
+	
+	.terminos ul{
+		padding-left: 1.2rem;
+	}
+	
+	.terminos ul li{
+		font-size: 0.9rem;
+	}
+}
+
+@media (max-width:525px){
+	.terminos{
+		padding:1.5rem 1.7rem;
+	}
+	.terminos--encabezado{
+		font-size: 1rem;
+	}
+	.terminos--title{
+		font-size: 0.9rem;
+		padding: 0.7rem 0;
+	}
+	.terminos p{
+		font-size: 0.7rem;
+	}
+	.terminos ul li{
+		font-size: 0.7rem;
+	}
+}
+

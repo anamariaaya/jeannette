@@ -1643,3 +1643,40 @@ input[type=checkbox]{
 	margin-top:670px;
 	height:1500px;
 }
+  /*Términos y Condiciones*/
+  .terminos{
+	margin-top: 5rem;
+	padding:2rem 8rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.terminos--encabezado{
+	font-family:'coneria' ;
+	color:#480a73;
+	font-weight: 600;
+	text-align: center;
+	font-size: 2rem;
+	padding: 3rem;
+}
+.terminos--title{
+	font-family:'amaranth' ;
+	font-weight: 500;
+	font-size: 1.4rem;
+	padding: 1.5rem 0;
+	color: #480a73;
+}
+.terminos p{
+	padding: 1rem 0;
+	text-align: justify;
+}
+
+.terminos strong{
+	color: #480a73;
+}
+
+.terminos ul{
+	padding-left: 2rem;
+}
+
+.terminos ul li{
+	padding-top:1rem;
+}

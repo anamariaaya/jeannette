@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width:1340px){
+	.modal-content h4{
+		font-size: 2.6rem;
+	}
+	.pasos__modal__ind p{
+		font-size: 1.6rem;
+	}
+	.pasos__modal__ind h4{
+		font-size: 2.4rem;
+	}
+	.modal-content h3{
+		font-size: 3rem;
+	}
+	.entrada__imagen h3{
+		font-size: 3.2rem;
+	}
+	.blog{
+		padding: 0 7rem;
+	}
+	.blog h4{
+		font-size: 2.6rem;
+		line-height: 1;
+	}
+	.blog p{
+		font-size: 1.7rem;
+	}
+	.sidebar{
+		padding: 0 7rem;
+	}
+	.sidebar h3{
+		font-size: 3.2rem;
+		line-height: 1;
+	}
+	.widget-curso{
+		font-size: 1.7rem;
+		line-height: 2.5rem;
+	}
+	.sidebar2{
+		padding: 0 7rem;
+	}
+	.sidebar2 h3{
+		font-size: 3.2rem;
+		line-height: 1;
+	}
+	.sidebar2 p{
+		padding-right: 0;
+		font-size: 1.7rem;
+	}
+	.sidebar2 img{
+		width: 85%;
+	}
+	.barra{
+		padding-top: 0.8rem;
+	}
+}
+
+@media (max-width:1280px){
+	.pasos__modal__ind p{
+		font-size: 1.5rem;
+	}
+	.logo img{
+		width: 32rem;
+		margin-left: 10rem;
+	}
+	.header__texto h2{
+		font-size: 4.4rem;
+	}
+	.header__texto span{
+		line-height: 2.6rem;
+		font-size: 2.6rem;
+	}
+	.date{
+		font-size: 2.6rem;
+	}
+
+}
+
+@media (max-width:1100px){
+	.logo img{
+		width: 30rem;
+		margin-left: 8rem;
+	}
+	.header__texto{
+		margin-top:3rem;
+	}
+	.header__texto h2{
+		font-size: 3.6rem;
+	}
+	.header__texto span{
+		line-height: 1.8rem;
+		font-size: 2.2rem;
+	}
+	.date{
+		font-size: 2.2rem;
+	}
+	.contenido-principal{
+		display:block;
+	}
+	.boton{
+		font-size: 1.6rem;
+		display: block;
+		padding: 1rem;
+	}
+	.boton--principal{
+		margin-right: 20rem;
+	}
+	.pasos__modal{
+		display: block;
+	}
+	.pasos__modal__ind{
+		margin: 1rem;
+	}
+
+	.pasos__modal__ind h4{
+		padding: 1.2rem 0;
+		margin: 0;
+		font-size: 2.3rem;
+	}
+	i{
+		font-size:2.4rem !important;
+	}
+	.modal-content h3{
+		font-size: 2.7rem;
+	}
+	.blog{
+		padding: 0 5rem 2rem 5rem;
+	}
+	.entrada{
+		display: block;
+	}
+	.entrada__imagen{
+		width: 100%;
+		padding-top: 1.5rem;
+	}
+	.entrada__imagen h3{
+		margin: 1.5rem 0;
+		font-size: 2.8rem;
+	}
+	.blog h4{
+		font-size: 2.2rem;
+	}
+	.blog p{
+		font-size: 1.6rem;
+	}
+	.video{
+		margin-top: 0;
+		width: 80%;
+		display: block;
+		margin: auto;
+	}
+	.boton{
+		margin-bottom: 0;
+	}
+	.sidebar{
+		display: block;
+		padding: 2rem 5rem;
+	}
+	.sidebar img{
+		width: 70%;
+	}
+	.sidebar h3{
+		font-size: 2.8rem;
+	}
+	.widget-curso{
+		font-size:1.6rem;
+	}
+	.sidebar2{
+		display: block;
+		padding: 2rem 5rem;
+	}
+	.sidebar2 img{
+		width: 70%;
+
+	}
+	.sidebar2 h3{
+		font-size: 2.8rem;
+	}
+	.aside--text{
+		padding-bottom: 1.5rem;
+	}
+	.aside--text p{
+		font-size: 1.6rem;
+	}
+	.footer{
+		grid-template-columns: 60% 40%;
+		align-items:baseline;
+	}
+	.footer__logo{
+		width: 18rem;
+	}
+	.redes img{
+		width:3.5rem;
+	}
+}
+
+@media (max-width:850px){
+	.logo img{
+		width: 22rem;
+		margin-left: 3rem;
+	}
+	.modal{
+		padding-top: 5rem;
+	}
+	.modal-content{
+		width:90%;
+		padding: 1rem 3rem;
+	}
+	.modal-content h4{
+		font-size: 2.4rem;
+	}
+	.pasos__modal__ind{
+		margin: 1rem 0;
+	}
+	.pasos__modal__ind p{
+		font-size: 1.8rem;
+	}
+	.pasos__modal__ind h4{
+		font-size: 2.4rem;
+	}
+	.modal-content h3{
+		font-size: 2.8rem;
+		font-weight: 500;
+	}
+	i{
+		font-size:2.4rem !important;
+	}
+	.header__texto h2{
+		font-size: 3.3rem;
+		padding-bottom: 1rem;
+	}
+	.header__texto p{
+		width: 90%;
+	}
+	.header__texto span{
+		line-height: 1rem;
+		font-size: 2.2rem;
+	}
+	.date{
+		padding: 1.2rem 0;
+		font-size: 2rem;
+	}
+	.boton{
+		font-size: 2rem;
+	}
+	.footer{
+		grid-template-columns: 50% 50%;
+		align-items: center;
+	}
+	.footer__logo{
+		margin-left: 5rem;
+	}
+	.redes{
+		margin: auto;
+	}
+	.redes img{
+		width:3rem;
+		margin: auto 1rem;
+	}
+}
+
+@media (max-width:640px){
+	.header{
+		height: 60rem;
+	}
+	.logo img{
+		width: 24rem;
+	}
+	.header__texto{
+		padding: 0 3rem;
+	}
+	.header__texto h2{
+		line-height: 1;
+	}
+	.date{
+		line-height: 1.2;
+	}
+	.boton{
+		font-size: 2rem;
+		padding: 1.5rem 1rem;
+		margin-right: 1rem;
+	}
+	.entrada__imagen h3{
+		font-size: 2.4rem;
+		font-weight: 500;
+	}
+	.blog {
+		padding: 0 3rem 2rem 3rem;
+	}
+	.blog h4{
+		font-size: 2rem;
+		font-weight: 500;
+	}
+	.blog p{
+		line-height: 1.4;
+	}
+	.video{
+		width: 100%;
+	}
+	.sidebar{
+		padding: 2rem;
+	}
+	.sidebar img{
+		width: 100%;
+	}
+	.sidebar h3{
+		font-size: 2.4rem;
+	}
+	.widget-curso{
+		line-height: 2.2rem;
+	}
+	.sidebar2{
+		padding: 2rem;
+	}
+	.sidebar2 img{
+		width: 100%;
+	}
+	.sidebar2 h3{
+		font-size: 2.4rem;
+	}
+	.aside--text{
+		padding-left: 0;
+	}
+	.aside--text p{
+		line-height: 2.2rem;
+	}
+	.footer__logo{
+		width: 15rem;
+		margin-left: 2rem;
+	}
+	.redes img{
+		width:3.5rem;
+	}
+	.footer__logo{
+		width:18rem;
+		margin: auto;
+	}
+	.footer{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.barra{
+		grid-row: 2/3;
+		justify-content: center;
+		padding-top: 0;
+	}
+}
+@media (max-width:360px){
+
+	.blog{
+		padding: 0 2rem 1rem 2rem;
+	}
+	.redes img{
+		width:2.8rem;
+	}
+	.footer__logo{
+		width:14rem;
+	}
+}
+
